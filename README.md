@@ -1,16 +1,32 @@
-## Hi there 👋
+# Hi 👋 I'm Ashil
 
-<!--
-**ashwiths/ashwiths** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🚀 Full Stack Developer | CSE Student  
+💻 React • Node.js • Vite • MongoDB  
+🏢 Working with Bluelab Technologies
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🔧 Tech Stack
+- React
+- Node.js
+- MongoDB
+- Tailwind CSS
+- Git & GitHub
+- Vercel
+
+---
+
+## 🚀 Projects
+• ProjectHub – Student project management platform  
+• TerminalHub – Developer command reference  
+• Student Portal – Academic workflow system  
+
+---
+
+## 🌐 Portfolio
+https://bluelabtech.space
+
+---
+
+## 📫 Connect With Me
+LinkedIn: https://linkedin.com/in/infant-ashil
