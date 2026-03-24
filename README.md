@@ -51,6 +51,8 @@ Official company website showcasing services, work, and digital solutions.
 ### 📌 TerminalHub
 A developer-friendly command reference tool for quickly accessing useful terminal commands.
 
+🔗 Live Demo:[dev.bluelabtech.space](https://dev.bluelabtech.space/)
+
 ### 📌 Student Portal
 Academic workflow system built to support students in managing academic activities and projects.
 
