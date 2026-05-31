@@ -1,95 +1,162 @@
-# 👋 Hey there! I'm **Ashil**
+````md id="9kl8m3"
+<div align="center">
 
-🚀 **Full Stack Developer** | 🎓 **CSE Student**  
-💻 Passionate about building modern web apps and developer tools  
-🌱 Constantly learning, building, and improving every day  
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=35&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=Hey+👋+I'm+Ashil;Full+Stack+Developer;Building+AI-Powered+Web+Apps;React+•+Node.js+•+MongoDB" />
 
-⚡ **Tech Focus:** React • Node.js • Vite • MongoDB  
-🏢 Currently working with **Bluelab Technologies**  
-🧠 Exploring **AI • Cybersecurity • Developer Tools**
+</div>
 
 ---
 
-## 🛠️ Tech Stack
+<div align="center">
 
-### 💻 Frontend
-- ⚛️ React
-- 🎨 Tailwind CSS
-- ⚡ Vite
-- 🌐 HTML5
-- 🎯 JavaScript
+# 🚀 INFANT ASHIL
 
-### 🔧 Backend
-- 🟢 Node.js
-- 🍃 MongoDB
+### Full Stack Developer • AI Enthusiast • Modern Web Builder
 
-### ⚙️ Tools & Platforms
-- 🐙 Git & GitHub
-- ▲ Vercel
-- 💻 Linux
-- 🧑‍💻 VS Code
+<img src="https://komarev.com/ghpvc/?username=ashwiths&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
+
+</div>
 
 ---
 
-## 🚀 Featured Projects
+# 🧠 About Me
 
-### 📌 ProjectHub
-Student project management platform designed to help students discover, organize, and complete mini projects efficiently.  
+```yaml
+Name: Ashil
+Role: Full Stack Developer
+Education: CSE Student
+Company: Bluelab Technologies
+Focus: AI-Powered Web Applications
+Tech Stack: React, Node.js, MongoDB, Vite
+OS: Linux
+````
 
-🔗 Live Demo: [projecthub.bluelabtech.space](https://projecthub.bluelabtech.space/)
-
-### 📌 Check
-A web-based project/application built under Bluelab Technologies.  
-
-🔗 Live Demo: [check.bluelabtech.space](https://check.bluelabtech.space/)
-
-### 📌 Bluelab Technologies Website
-Official company website showcasing services, work, and digital solutions.  
-
-🔗 Live Demo: [www.bluelabtech.space](https://www.bluelabtech.space/)
-
-### 📌 TerminalHub
-A developer-friendly command reference tool for quickly accessing useful terminal commands.
-
-🔗 Live Demo:[dev.bluelabtech.space](https://dev.bluelabtech.space/)
-
-### 📌 Student Portal
-Academic workflow system built to support students in managing academic activities and projects.
+💻 Passionate about building modern web applications and developer tools
+🚀 Constantly learning, building, and improving every day
+🌱 Interested in AI-powered systems and scalable products
+⚡ Focused on performance, UI/UX, and developer experience
 
 ---
 
-## 🌐 My Websites
+# ⚒️ Tech Stack
 
-- 🔗 [Check](https://check.bluelabtech.space/)
-- 🔗 [Bluelab Technologies](https://www.bluelabtech.space/)
-- 🔗 [ProjectHub](https://projecthub.bluelabtech.space/)
+<div align="center">
 
----
+## 🎨 Frontend
 
-## 📫 Connect With Me
-
-- 💼 LinkedIn: [linkedin.com/in/infant-ashil](https://linkedin.com/in/infant-ashil)
-- 🐙 GitHub: [github.com/ashwiths](https://github.com/ashwiths)
+<img src="https://skillicons.dev/icons?i=react,vite,tailwind,html,css,js" />
 
 ---
 
-## 📊 GitHub Stats
+## 🔧 Backend & Database
 
-![Ashil's GitHub stats](https://github-readme-stats.vercel.app/api?username=ashwiths&show_icons=true&theme=radical)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ashwiths&layout=compact&theme=radical)
+<img src="https://skillicons.dev/icons?i=nodejs,mongodb,express" />
 
 ---
 
-## ✨ About Me
+## ⚙️ Tools & Platforms
 
-- 🚀 I enjoy building real-world web applications
-- 🎓 I'm a CSE student with a strong interest in full stack development
-- 🧠 I love exploring AI, cybersecurity, and developer productivity tools
-- 🌍 I like creating projects that are useful, clean, and user-friendly
+<img src="https://skillicons.dev/icons?i=git,github,linux,vscode,vercel,npm" />
+
+</div>
 
 ---
 
-## 🌟 Motto
+# 🚀 Featured Projects
 
-**"Always learning, always building."**
+<div align="center">
+
+| 🚀 Project           | 📖 Description                      | 🔗 Live                                        |
+| -------------------- | ----------------------------------- | ---------------------------------------------- |
+| ProjectHub           | Student project management platform | [Visit](https://projecthub.bluelabtech.space/) |
+| Check                | Utility/application platform        | [Visit](https://check.bluelabtech.space/)      |
+| Bluelab Technologies | Official company website            | [Visit](https://www.bluelabtech.space/)        |
+| TerminalHub          | Developer command reference         | [Visit](https://dev.bluelabtech.space/)        |
+| Student Portal       | Academic workflow system            | Coming Soon                                    |
+
+</div>
+
+---
+
+# 📊 GitHub Analytics
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=ashwiths&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10" />
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ashwiths&layout=compact&theme=tokyonight&hide_border=true&border_radius=10" />
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=ashwiths&theme=tokyonight&hide_border=true" />
+
+</div>
+
+---
+
+# 🐍 Contribution Snake
+
+<div align="center">
+
+![snake gif](https://github.com/ashwiths/ashwiths/blob/output/github-contribution-grid-snake.svg)
+
+</div>
+
+---
+
+# 🌐 Connect With Me
+
+<div align="center">
+
+<a href="https://linkedin.com/in/infant-ashil">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://github.com/ashwiths">
+<img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://www.ashil.space/">
+<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=white"/>
+</a>
+
+<a href="mailto:infantashil55@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+</div>
+
+---
+
+# ⚡ Current Focus
+
+* 🚀 Building AI-powered web applications
+* ⚡ Exploring scalable full stack systems
+* 🎨 Crafting modern UI/UX experiences
+* 🧠 Learning advanced developer tooling
+* 🌍 Creating impactful digital products
+
+---
+
+<div align="center">
+
+# ❤️ Motto
+
+### Made with ❤️ and a lot of ☕
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=20&pause=1000&color=FF4B91&center=true&vCenter=true&width=500&lines=Always+Learning+🚀;Always+Building+💻;Always+Improving+⚡" />
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:6A5ACD&height=120&section=footer"/>
+
+</div>
+``` id="8ypmvh"
