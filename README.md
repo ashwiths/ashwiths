@@ -1,4 +1,3 @@
-````md id="9kl8m3"
 <div align="center">
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=35&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=Hey+👋+I'm+Ashil;Full+Stack+Developer;Building+AI-Powered+Web+Apps;React+•+Node.js+•+MongoDB" />
@@ -29,7 +28,7 @@ Company: Bluelab Technologies
 Focus: AI-Powered Web Applications
 Tech Stack: React, Node.js, MongoDB, Vite
 OS: Linux
-````
+```
 
 💻 Passionate about building modern web applications and developer tools
 🚀 Constantly learning, building, and improving every day
@@ -159,4 +158,3 @@ OS: Linux
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:6A5ACD&height=120&section=footer"/>
 
 </div>
-``` id="8ypmvh"
