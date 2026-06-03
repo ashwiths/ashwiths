@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=260&section=header&text=Ashil&fontSize=65&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20•%20AI%20Builder&descAlignY=56"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:111827,100:1E3A8A&height=260&section=header&text=Ashil&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20•%20AI%20Builder&descAlignY=56"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=32&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=Hey+👋+I'm+Ashil;Full+Stack+Developer;Building+Modern+Web+Experiences;AI-Powered+Application+Developer;Always+Building+🚀" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=34&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=Hey+👋+I'm+Ashil;Full+Stack+Developer;Building+Modern+Web+Experiences;AI-Powered+Application+Developer;Always+Building+🚀" />
 
-<br/>
+<br>
 
-<img src="https://komarev.com/ghpvc/?username=ashwiths&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
+<img src="https://komarev.com/ghpvc/?username=ashwiths&label=PROFILE+VIEWS&color=0ea5e9&style=for-the-badge"/>
 
 </div>
 
@@ -29,61 +29,77 @@
 
 <div align="center">
 
-### I've Built & Contributed To
+### ✨ I've Built & Contributed To
 
-<br/>
+<br>
 
 <a href="https://bible.savee.space/">
-<img src="https://img.shields.io/badge/📖_Bible-181717?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/📖%20Bible-0f172a?style=for-the-badge&logoColor=white"/>
 </a>
+
+<img width="18"/>
 
 <a href="https://www.savee.space/">
-<img src="https://img.shields.io/badge/❤️_Heal-181717?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/❤️%20Heal-111827?style=for-the-badge"/>
 </a>
+
+<img width="18"/>
 
 <a href="https://drop.savee.space/">
-<img src="https://img.shields.io/badge/💧_Drop-181717?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/💧%20Drop-111827?style=for-the-badge"/>
 </a>
+
+<img width="18"/>
 
 <a href="https://type.savee.space/">
-<img src="https://img.shields.io/badge/⌨️_Type-181717?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/⌨️%20Type-111827?style=for-the-badge"/>
 </a>
 
-<br/><br/>
+<br><br><br>
 
 <a href="https://sheethub.bluelabtech.space/">
-<img src="https://img.shields.io/badge/📊_SheetHub-181717?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/📊%20SheetHub-111827?style=for-the-badge"/>
 </a>
+
+<img width="18"/>
 
 <a href="https://www.bluelabtech.space/">
-<img src="https://img.shields.io/badge/🔷_Bluelab-181717?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/🔷%20Bluelab-111827?style=for-the-badge"/>
 </a>
+
+<img width="18"/>
 
 <a href="https://projecthub.bluelabtech.space/">
-<img src="https://img.shields.io/badge/📦_ProjectHub-181717?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/📦%20ProjectHub-111827?style=for-the-badge"/>
 </a>
+
+<img width="18"/>
 
 <a href="https://dev.bluelabtech.space/">
-<img src="https://img.shields.io/badge/⚙️_DevKit-181717?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/⚙️%20DevKit-111827?style=for-the-badge"/>
 </a>
 
-<br/><br/>
+<br><br><br>
 
 <a href="https://check.bluelabtech.space/">
-<img src="https://img.shields.io/badge/🌐_NetCheck-181717?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/🌐%20NetCheck-111827?style=for-the-badge"/>
 </a>
+
+<img width="18"/>
 
 <a href="https://safe.savee.space/">
-<img src="https://img.shields.io/badge/🔒_SafeFile-181717?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/🔒%20SafeFile-111827?style=for-the-badge"/>
 </a>
+
+<img width="18"/>
 
 <a href="https://font.savee.space/">
-<img src="https://img.shields.io/badge/🎨_FontGen-181717?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/🎨%20FontGen-111827?style=for-the-badge"/>
 </a>
 
-<br/><br/><br/>
+<br><br><br><br>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=11+Products+🚀;3+Platforms+⚡;1+Vision+🧠" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=30&pause=1000&color=00F7FF&center=true&vCenter=true&width=800&lines=11+Products+🚀;3+Platforms+⚡;1+Vision+🧠;Building+The+Future+💻" />
 
 </div>
 
@@ -99,11 +115,11 @@
 
 </div>
 
-<br/>
+<br>
 
 <div align="center">
 
-<img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=ashwiths&theme=tokyonight&hide_border=true"/>
+<img width="72%" src="https://github-readme-streak-stats.herokuapp.com/?user=ashwiths&theme=tokyonight&hide_border=true"/>
 
 </div>
 
@@ -130,16 +146,22 @@
 <div align="center">
 
 <a href="https://linkedin.com/in/infant-ashil">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
+
+<img width="12"/>
 
 <a href="https://github.com/ashwiths">
 <img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
+<img width="12"/>
+
 <a href="https://www.ashil.space/">
 <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=white"/>
 </a>
+
+<img width="12"/>
 
 <a href="mailto:infantashil55@gmail.com">
 <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
@@ -151,7 +173,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&pause=1000&color=FF4B91&center=true&vCenter=true&width=500&lines=Always+Learning+🚀;Always+Building+💻;Always+Improving+⚡" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=24&pause=1000&color=FF4B91&center=true&vCenter=true&width=650&lines=Always+Learning+🚀;Always+Building+💻;Always+Improving+⚡" />
 
 </div>
 
