@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=260&section=header&text=Ashil&fontSize=65&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20•%20AI%20Builder%20•%20Modern%20Web%20Developer&descAlignY=56"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=260&section=header&text=Ashil&fontSize=65&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20•%20AI%20Builder&descAlignY=56"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=32&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=Hey+👋+I'm+Ashil;Full+Stack+Developer;Building+AI-Powered+Web+Apps;React+•+Node.js+•+MongoDB;Always+Building+🚀" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=32&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=Hey+👋+I'm+Ashil;Full+Stack+Developer;Building+Modern+Web+Experiences;AI-Powered+Application+Developer;Always+Building+🚀" />
 
 <br/>
 
@@ -16,58 +16,31 @@
 
 <div align="center">
 
-💻 Full Stack Developer passionate about building scalable web applications  
-🚀 Exploring AI-powered products & developer tooling  
-⚡ Focused on performance, clean UI/UX, and modern experiences  
-🌱 Currently learning advanced backend systems & AI integrations  
+💻 Passionate Full Stack Developer focused on building modern and scalable web applications  
+🚀 Exploring AI-powered systems, automation tools, and developer-focused platforms  
+⚡ Dedicated to creating fast, responsive, and visually polished digital experiences  
+🌱 Constantly learning, experimenting, and improving every single day  
 
 </div>
 
-<br/>
-
-- 🎓 CSE Student
-- 🏢 Working with **Bluelab Technologies**
-- 🧠 Interested in AI, Full Stack Development & Developer Tools
-- 🐧 Linux User
-- ⚡ Building modern digital experiences with React & Node.js
-
 ---
 
-# ⚒️ Tech Stack
+# 🧠 What I Build
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,vite,tailwind,js,html,css,git,github,linux,vscode,vercel,npm&perline=7" />
+✨ AI-Powered Web Applications  
+⚡ Modern Full Stack Platforms  
+🎨 Clean UI/UX Experiences  
+🛠️ Developer Tools & Automation Systems  
+🌐 Responsive & Scalable Websites  
+🚀 Performance-Focused Applications  
 
 </div>
 
 ---
 
-# 🚀 Featured Projects
-
-<div align="center">
-
-<a href="https://projecthub.bluelabtech.space/">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=ashwiths&repo=ProjectHub&theme=tokyonight&hide_border=true"/>
-</a>
-
-<a href="https://check.bluelabtech.space/">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=ashwiths&repo=Check&theme=tokyonight&hide_border=true"/>
-</a>
-
-<a href="https://www.bluelabtech.space/">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=ashwiths&repo=Bluelab-Technologies&theme=tokyonight&hide_border=true"/>
-</a>
-
-<a href="https://dev.bluelabtech.space/">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=ashwiths&repo=TerminalHub&theme=tokyonight&hide_border=true"/>
-</a>
-
-</div>
-
----
-
-# 🌐 Portfolio Projects
+# 🚀 Live Projects
 
 <div align="center">
 
@@ -78,7 +51,7 @@
 | Stock Platform | https://stock.bluelabtech.space |
 | Bluelab Technologies | https://www.bluelabtech.space |
 | ProjectHub | https://projecthub.bluelabtech.space |
-| Check | https://check.bluelabtech.space |
+| Check Platform | https://check.bluelabtech.space |
 | TerminalHub | https://dev.bluelabtech.space |
 
 </div>
@@ -140,20 +113,6 @@
 <a href="mailto:infantashil55@gmail.com">
 <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
-
-</div>
-
----
-
-# ⚡ Current Focus
-
-<div align="center">
-
-🚀 Building AI-powered web applications  
-⚡ Exploring scalable full stack systems  
-🎨 Crafting modern UI/UX experiences  
-🧠 Learning advanced developer tooling  
-🌍 Creating impactful digital products  
 
 </div>
 
