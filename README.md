@@ -16,7 +16,7 @@
 
 <div align="center">
 
-💻 Passionate Full Stack Developer focused on building modern and scalable web applications  
+💻 Passionate Full Stack Developer focused on building scalable web applications  
 🚀 Exploring AI-powered systems, automation tools, and developer-focused platforms  
 ⚡ Dedicated to creating fast, responsive, and visually polished digital experiences  
 🌱 Constantly learning, experimenting, and improving every single day  
@@ -25,26 +25,35 @@
 
 ---
 
-# 🧠 What I Build
+# 🧠 Ecosystem
 
 <div align="center">
 
-✨ AI-Powered Web Applications  
-⚡ Modern Full Stack Platforms  
-🎨 Clean UI/UX Experiences  
-🛠️ Developer Tools & Automation Systems  
-🌐 Responsive & Scalable Websites  
-🚀 Performance-Focused Applications  
+### 🚀 I've Built & Contributed To
+
+| Platform | Description |
+|---|---|
+| 🧠 Heal | AI-powered healthcare platform |
+| 📖 Bible | Spiritual reading & utility platform |
+| 📄 Split PDF | PDF utility & document processing tool |
+| 💧 Drop | Minimal modern utility application |
+| ⌨️ Type | Typing/productivity experience |
+| 🔷 Bluelab | Official development ecosystem |
+| 📦 ProjectHub | Student project management platform |
+| ⚙️ DevKit | Developer utilities & tooling |
+| 🌐 Net Check | Network utility platform |
+| 🔒 Safe File | Secure file management system |
+| 🎨 Font Gen | Font generation utility |
 
 </div>
 
 ---
 
-# 🚀 Live Projects
+# 🚀 Live Platforms
 
 <div align="center">
 
-| 🚀 Project | 🌍 Live Demo |
+| 🌍 Platform | 🔗 Live Demo |
 |---|---|
 | Antigravity IDE | https://antigravityide.com |
 | SKILL-AWAKENING | https://skill-awakening.vercel.app |
@@ -84,7 +93,13 @@
 
 ---
 
- 
+# 🐍 Contribution Snake
+
+<div align="center">
+
+![snake gif](https://github.com/ashwiths/ashwiths/blob/output/github-contribution-grid-snake.svg)
+
+</div>
 
 ---
 
@@ -114,7 +129,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&pause=1000&color=FF4B91&center=true&vCenter=true&width=500&lines=Always+Learning+🚀;Always+Building+💻;Always+Improving+⚡" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&pause=1000&color=FF4B91&center=true&vCenter=true&width=500&lines=11+Products+🚀;3+Platforms+⚡;1+Vision+🧠;Always+Building+💻" />
 
 </div>
 
