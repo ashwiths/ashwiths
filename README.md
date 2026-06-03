@@ -49,21 +49,7 @@
 
 ---
 
-# 🚀 Live Platforms
-
-<div align="center">
-
-| 🌍 Platform | 🔗 Live Demo |
-|---|---|
-| Antigravity IDE | https://antigravityide.com |
-| SKILL-AWAKENING | https://skill-awakening.vercel.app |
-| Stock Platform | https://stock.bluelabtech.space |
-| Bluelab Technologies | https://www.bluelabtech.space |
-| ProjectHub | https://projecthub.bluelabtech.space |
-| Check Platform | https://check.bluelabtech.space |
-| TerminalHub | https://dev.bluelabtech.space |
-
-</div>
+ 
 
 ---
 
