@@ -31,78 +31,65 @@
 
 ### ✨ I've Built & Contributed To
 
-<br>
+<br><br>
 
 <a href="https://bible.savee.space/">
-<img src="https://img.shields.io/badge/📖%20Bible-0f172a?style=for-the-badge&logoColor=white"/>
+<img height="55" src="https://img.shields.io/badge/📖%20BIBLE-0F172A?style=for-the-badge&logoColor=white"/>
 </a>
-
-<img width="18"/>
 
 <a href="https://www.savee.space/">
-<img src="https://img.shields.io/badge/❤️%20Heal-111827?style=for-the-badge"/>
+<img height="55" src="https://img.shields.io/badge/❤️%20HEAL-111827?style=for-the-badge"/>
 </a>
-
-<img width="18"/>
 
 <a href="https://drop.savee.space/">
-<img src="https://img.shields.io/badge/💧%20Drop-111827?style=for-the-badge"/>
+<img height="55" src="https://img.shields.io/badge/💧%20DROP-111827?style=for-the-badge"/>
 </a>
 
-<img width="18"/>
-
 <a href="https://type.savee.space/">
-<img src="https://img.shields.io/badge/⌨️%20Type-111827?style=for-the-badge"/>
+<img height="55" src="https://img.shields.io/badge/⌨️%20TYPE-111827?style=for-the-badge"/>
 </a>
 
 <br><br><br>
 
 <a href="https://sheethub.bluelabtech.space/">
-<img src="https://img.shields.io/badge/📊%20SheetHub-111827?style=for-the-badge"/>
+<img height="55" src="https://img.shields.io/badge/📊%20SHEETHUB-111827?style=for-the-badge"/>
 </a>
-
-<img width="18"/>
 
 <a href="https://www.bluelabtech.space/">
-<img src="https://img.shields.io/badge/🔷%20Bluelab-111827?style=for-the-badge"/>
+<img height="55" src="https://img.shields.io/badge/🔷%20BLUELAB-111827?style=for-the-badge"/>
 </a>
-
-<img width="18"/>
 
 <a href="https://projecthub.bluelabtech.space/">
-<img src="https://img.shields.io/badge/📦%20ProjectHub-111827?style=for-the-badge"/>
+<img height="55" src="https://img.shields.io/badge/📦%20PROJECTHUB-111827?style=for-the-badge"/>
 </a>
 
-<img width="18"/>
-
 <a href="https://dev.bluelabtech.space/">
-<img src="https://img.shields.io/badge/⚙️%20DevKit-111827?style=for-the-badge"/>
+<img height="55" src="https://img.shields.io/badge/⚙️%20DEVKIT-111827?style=for-the-badge"/>
 </a>
 
 <br><br><br>
 
 <a href="https://check.bluelabtech.space/">
-<img src="https://img.shields.io/badge/🌐%20NetCheck-111827?style=for-the-badge"/>
+<img height="55" src="https://img.shields.io/badge/🌐%20NETCHECK-111827?style=for-the-badge"/>
 </a>
-
-<img width="18"/>
 
 <a href="https://safe.savee.space/">
-<img src="https://img.shields.io/badge/🔒%20SafeFile-111827?style=for-the-badge"/>
+<img height="55" src="https://img.shields.io/badge/🔒%20SAFEFILE-111827?style=for-the-badge"/>
 </a>
 
-<img width="18"/>
-
 <a href="https://font.savee.space/">
-<img src="https://img.shields.io/badge/🎨%20FontGen-111827?style=for-the-badge"/>
+<img height="55" src="https://img.shields.io/badge/🎨%20FONTGEN-111827?style=for-the-badge"/>
 </a>
 
 <br><br><br><br>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=30&pause=1000&color=00F7FF&center=true&vCenter=true&width=800&lines=11+Products+🚀;3+Platforms+⚡;1+Vision+🧠;Building+The+Future+💻" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=32&pause=1000&color=00F7FF&center=true&vCenter=true&width=850&lines=11+Products+🚀+•+3+Platforms+⚡+•+1+Vision+🧠" />
+
+<br><br>
+
+### Building interconnected tools, platforms, and digital experiences.
 
 </div>
-
 ---
 
 # 📊 GitHub Analytics
