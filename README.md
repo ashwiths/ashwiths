@@ -31,120 +31,61 @@
 
 ### I've Built & Contributed To
 
-<table>
-<tr>
-<td align="center">
+<br/>
+
 <a href="https://bible.savee.space/">
-<b>📖 Bible</b>
+<img src="https://img.shields.io/badge/📖%20Bible-Spiritual%20Platform-111827?style=for-the-badge"/>
 </a>
-<br/>
-Spiritual Reading Platform
-</td>
 
-<td align="center">
 <a href="https://www.savee.space/">
-<b>❤️ Heal</b>
+<img src="https://img.shields.io/badge/❤️%20Heal-Healthcare%20Ecosystem-111827?style=for-the-badge"/>
 </a>
-<br/>
-Healthcare Ecosystem
-</td>
 
-<td align="center">
 <a href="https://drop.savee.space/">
-<b>💧 Drop</b>
+<img src="https://img.shields.io/badge/💧%20Drop-Utility%20Platform-111827?style=for-the-badge"/>
 </a>
-<br/>
-Utility Platform
-</td>
 
-<td align="center">
 <a href="https://type.savee.space/">
-<b>⌨️ Type</b>
+<img src="https://img.shields.io/badge/⌨️%20Type-Typing%20Experience-111827?style=for-the-badge"/>
 </a>
-<br/>
-Typing Experience
-</td>
-</tr>
 
-<tr>
-<td align="center">
+<br/><br/>
+
 <a href="https://sheethub.bluelabtech.space/">
-<b>📊 SheetHub</b>
+<img src="https://img.shields.io/badge/📊%20SheetHub-Spreadsheet%20Platform-111827?style=for-the-badge"/>
 </a>
-<br/>
-Spreadsheet Platform
-</td>
 
-<td align="center">
 <a href="https://www.bluelabtech.space/">
-<b>🔷 Bluelab</b>
+<img src="https://img.shields.io/badge/🔷%20Bluelab-Technology%20Ecosystem-111827?style=for-the-badge"/>
 </a>
-<br/>
-Technology Ecosystem
-</td>
 
-<td align="center">
 <a href="https://projecthub.bluelabtech.space/">
-<b>📦 ProjectHub</b>
+<img src="https://img.shields.io/badge/📦%20ProjectHub-Project%20Management-111827?style=for-the-badge"/>
 </a>
-<br/>
-Project Management
-</td>
 
-<td align="center">
 <a href="https://dev.bluelabtech.space/">
-<b>⚙️ DevKit</b>
+<img src="https://img.shields.io/badge/⚙️%20DevKit-Developer%20Tools-111827?style=for-the-badge"/>
 </a>
-<br/>
-Developer Tools
-</td>
-</tr>
 
-<tr>
-<td align="center">
+<br/><br/>
+
 <a href="https://check.bluelabtech.space/">
-<b>🌐 Net Check</b>
+<img src="https://img.shields.io/badge/🌐%20NetCheck-Network%20Utilities-111827?style=for-the-badge"/>
 </a>
-<br/>
-Network Utilities
-</td>
 
-<td align="center">
 <a href="https://safe.savee.space/">
-<b>🔒 Safe File</b>
+<img src="https://img.shields.io/badge/🔒%20SafeFile-Secure%20File%20Tools-111827?style=for-the-badge"/>
 </a>
-<br/>
-Secure File Tools
-</td>
 
-<td align="center">
 <a href="https://font.savee.space/">
-<b>🎨 Font Gen</b>
+<img src="https://img.shields.io/badge/🎨%20FontGen-Font%20Generator-111827?style=for-the-badge"/>
 </a>
-<br/>
-Font Generator
-</td>
 
-<td align="center">
-<b>🚀 More Coming</b>
-<br/>
-Always Building
-</td>
-</tr>
-</table>
+<br/><br/>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=11+Products+🚀;3+Platforms+⚡;1+Vision+🧠" />
 
 </div>
-
----
-
-<div align="center">
-
-### 🚀 11 Products • 3 Platforms • 1 Vision
-
-Building interconnected tools, platforms, and digital experiences.
-
-</div>
-
 ---
 
  
