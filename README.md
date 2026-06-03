@@ -25,25 +25,123 @@
 
 ---
 
-# 🧠 Ecosystem
+# 🌌 Ecosystem
 
 <div align="center">
 
-### 🚀 I've Built & Contributed To
+### I've Built & Contributed To
 
-| Platform | Description |
-|---|---|
-| 🧠 Heal | AI-powered healthcare platform |
-| 📖 Bible | Spiritual reading & utility platform |
-| 📄 Split PDF | PDF utility & document processing tool |
-| 💧 Drop | Minimal modern utility application |
-| ⌨️ Type | Typing/productivity experience |
-| 🔷 Bluelab | Official development ecosystem |
-| 📦 ProjectHub | Student project management platform |
-| ⚙️ DevKit | Developer utilities & tooling |
-| 🌐 Net Check | Network utility platform |
-| 🔒 Safe File | Secure file management system |
-| 🎨 Font Gen | Font generation utility |
+<table>
+<tr>
+<td align="center">
+<a href="https://bible.savee.space/">
+<b>📖 Bible</b>
+</a>
+<br/>
+Spiritual Reading Platform
+</td>
+
+<td align="center">
+<a href="https://www.savee.space/">
+<b>❤️ Heal</b>
+</a>
+<br/>
+Healthcare Ecosystem
+</td>
+
+<td align="center">
+<a href="https://drop.savee.space/">
+<b>💧 Drop</b>
+</a>
+<br/>
+Utility Platform
+</td>
+
+<td align="center">
+<a href="https://type.savee.space/">
+<b>⌨️ Type</b>
+</a>
+<br/>
+Typing Experience
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="https://sheethub.bluelabtech.space/">
+<b>📊 SheetHub</b>
+</a>
+<br/>
+Spreadsheet Platform
+</td>
+
+<td align="center">
+<a href="https://www.bluelabtech.space/">
+<b>🔷 Bluelab</b>
+</a>
+<br/>
+Technology Ecosystem
+</td>
+
+<td align="center">
+<a href="https://projecthub.bluelabtech.space/">
+<b>📦 ProjectHub</b>
+</a>
+<br/>
+Project Management
+</td>
+
+<td align="center">
+<a href="https://dev.bluelabtech.space/">
+<b>⚙️ DevKit</b>
+</a>
+<br/>
+Developer Tools
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="https://check.bluelabtech.space/">
+<b>🌐 Net Check</b>
+</a>
+<br/>
+Network Utilities
+</td>
+
+<td align="center">
+<a href="https://safe.savee.space/">
+<b>🔒 Safe File</b>
+</a>
+<br/>
+Secure File Tools
+</td>
+
+<td align="center">
+<a href="https://font.savee.space/">
+<b>🎨 Font Gen</b>
+</a>
+<br/>
+Font Generator
+</td>
+
+<td align="center">
+<b>🚀 More Coming</b>
+<br/>
+Always Building
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+<div align="center">
+
+### 🚀 11 Products • 3 Platforms • 1 Vision
+
+Building interconnected tools, platforms, and digital experiences.
 
 </div>
 
