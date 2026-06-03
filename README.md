@@ -29,65 +29,83 @@
 
 <div align="center">
 
-### ✨ I've Built & Contributed To
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=34&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=Building+Products+That+Connect+Together+⚡;AI+•+Developer+Tools+•+Platforms+🚀;Modern+Digital+Ecosystem+🌌" />
 
-<br><br>
+<br>
+
+<table>
+<tr>
+<td align="center">
+
+### 📖 Savee Ecosystem
 
 <a href="https://bible.savee.space/">
-<img height="55" src="https://img.shields.io/badge/📖%20BIBLE-0F172A?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/BIBLE-0F172A?style=for-the-badge&logo=bookstack&logoColor=white"/>
 </a>
 
 <a href="https://www.savee.space/">
-<img height="55" src="https://img.shields.io/badge/❤️%20HEAL-111827?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/HEAL-111827?style=for-the-badge&logo=heart&logoColor=red"/>
 </a>
 
 <a href="https://drop.savee.space/">
-<img height="55" src="https://img.shields.io/badge/💧%20DROP-111827?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/DROP-111827?style=for-the-badge&logo=icloud&logoColor=38BDF8"/>
 </a>
 
 <a href="https://type.savee.space/">
-<img height="55" src="https://img.shields.io/badge/⌨️%20TYPE-111827?style=for-the-badge"/>
-</a>
-
-<br><br><br>
-
-<a href="https://sheethub.bluelabtech.space/">
-<img height="55" src="https://img.shields.io/badge/📊%20SHEETHUB-111827?style=for-the-badge"/>
-</a>
-
-<a href="https://www.bluelabtech.space/">
-<img height="55" src="https://img.shields.io/badge/🔷%20BLUELAB-111827?style=for-the-badge"/>
-</a>
-
-<a href="https://projecthub.bluelabtech.space/">
-<img height="55" src="https://img.shields.io/badge/📦%20PROJECTHUB-111827?style=for-the-badge"/>
-</a>
-
-<a href="https://dev.bluelabtech.space/">
-<img height="55" src="https://img.shields.io/badge/⚙️%20DEVKIT-111827?style=for-the-badge"/>
-</a>
-
-<br><br><br>
-
-<a href="https://check.bluelabtech.space/">
-<img height="55" src="https://img.shields.io/badge/🌐%20NETCHECK-111827?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/TYPE-111827?style=for-the-badge&logo=typescript&logoColor=white"/>
 </a>
 
 <a href="https://safe.savee.space/">
-<img height="55" src="https://img.shields.io/badge/🔒%20SAFEFILE-111827?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/SAFEFILE-111827?style=for-the-badge&logo=icloud&logoColor=yellow"/>
 </a>
 
 <a href="https://font.savee.space/">
-<img height="55" src="https://img.shields.io/badge/🎨%20FONTGEN-111827?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/FONTGEN-111827?style=for-the-badge&logo=googlefonts&logoColor=orange"/>
 </a>
 
-<br><br><br><br>
+</td>
+</tr>
+</table>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=32&pause=1000&color=00F7FF&center=true&vCenter=true&width=850&lines=11+Products+🚀+•+3+Platforms+⚡+•+1+Vision+🧠" />
+<br>
+
+<table>
+<tr>
+<td align="center">
+
+### 🔷 Bluelab Platforms
+
+<a href="https://sheethub.bluelabtech.space/">
+<img src="https://img.shields.io/badge/SHEETHUB-0F172A?style=for-the-badge&logo=googlesheets&logoColor=white"/>
+</a>
+
+<a href="https://www.bluelabtech.space/">
+<img src="https://img.shields.io/badge/BLUELAB-111827?style=for-the-badge&logo=vercel&logoColor=00F7FF"/>
+</a>
+
+<a href="https://projecthub.bluelabtech.space/">
+<img src="https://img.shields.io/badge/PROJECTHUB-111827?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://dev.bluelabtech.space/">
+<img src="https://img.shields.io/badge/DEVKIT-111827?style=for-the-badge&logo=visualstudiocode&logoColor=38BDF8"/>
+</a>
+
+<a href="https://check.bluelabtech.space/">
+<img src="https://img.shields.io/badge/NETCHECK-111827?style=for-the-badge&logo=cloudflare&logoColor=orange"/>
+</a>
+
+</td>
+</tr>
+</table>
 
 <br><br>
 
-### Building interconnected tools, platforms, and digital experiences.
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=30&pause=1000&color=00F7FF&center=true&vCenter=true&width=850&lines=11+Products+🚀;3+Platforms+⚡;1+Vision+🧠;Building+The+Future+One+Project+At+A+Time" />
+
+<br>
+
+<img src="https://github-profile-trophy.vercel.app/?username=ashwiths&theme=tokyonight&no-frame=true&row=1&column=6"/>
 
 </div>
 ---
