@@ -1,0 +1,314 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="1180" height="610" role="img" aria-label="Infant Ashil - Developer Profile System Banner (Light Theme)">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EEF6FF"/>
+    </linearGradient>
+
+    <radialGradient id="glowBlueLight" cx="20%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowIndigoLight" cx="80%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#4F46E5" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#4F46E5" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="panelBorderLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#CBD5E1" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <linearGradient id="asciiGradLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0369A1"/>
+      <stop offset="45%" stop-color="#0284C7"/>
+      <stop offset="80%" stop-color="#4338CA"/>
+      <stop offset="100%" stop-color="#6D28D9"/>
+    </linearGradient>
+
+    <linearGradient id="scanlineGradLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#0284C7" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#4338CA" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="headerGradLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F1F5F9" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#E2E8F0" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#F1F5F9" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="gridLight" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#E2E8F0" stroke-width="0.6" stroke-opacity="0.8"/>
+      <circle cx="24" cy="0" r="0.8" fill="#0284C7" fill-opacity="0.25"/>
+    </pattern>
+
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+      .ascii { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 8.3px; letter-spacing: 0.5px; }
+    </style>
+  </defs>
+
+  <!-- Outer Frame -->
+  <rect width="1180" height="610" rx="20" fill="url(#bgLight)" stroke="#CBD5E1" stroke-width="1.5"/>
+  <rect width="1180" height="610" rx="20" fill="url(#glowBlueLight)"/>
+  <rect width="1180" height="610" rx="20" fill="url(#glowIndigoLight)"/>
+  <rect width="1180" height="610" rx="20" fill="url(#gridLight)"/>
+
+  <!-- Top Terminal Header Bar -->
+  <rect x="0" y="0" width="1180" height="50" rx="20" fill="url(#headerGradLight)"/>
+  <rect x="0" y="20" width="1180" height="30" fill="url(#headerGradLight)"/>
+  <line x1="0" y1="50" x2="1180" y2="50" stroke="#CBD5E1" stroke-width="1"/>
+
+  <!-- Terminal Window Controls -->
+  <circle cx="34" cy="25" r="5" fill="#EF4444"/>
+  <circle cx="50" cy="25" r="5" fill="#F59E0B"/>
+  <circle cx="66" cy="25" r="5" fill="#10B981"/>
+
+  <!-- Top Prompt & Title -->
+  <text class="mono" x="92" y="29" font-size="12" fill="#0284C7">ashwiths@developer:~$</text>
+  <text class="mono" x="272" y="29" font-size="12" fill="#64748B">/bin/system-profile --online</text>
+
+  <text class="mono" x="590" y="29" font-size="11" fill="#475569" text-anchor="middle" letter-spacing="1">INFANT ASHIL · SYSTEM INTERFACE</text>
+
+  <!-- Top Right Status Pill -->
+  <rect x="1000" y="14" width="156" height="22" rx="11" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <circle cx="1016" cy="25" r="4" fill="#059669">
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text class="mono" x="1028" y="29" font-size="10.5" fill="#059669" font-weight="600">ONLINE</text>
+  <text class="mono" x="1076" y="29" font-size="10.5" fill="#64748B">· 41 REPOS</text>
+
+  <!-- ================= LEFT PANEL (VISUAL / IDENTITY) ================= -->
+  <rect x="24" y="64" width="436" height="526" rx="14" fill="#FFFFFF" fill-opacity="0.92" stroke="url(#panelBorderLight)" stroke-width="1"/>
+
+  <!-- Left Header -->
+  <text class="mono" x="42" y="88" font-size="11" fill="#0284C7" font-weight="600" letter-spacing="0.5">// VISUAL.MAP</text>
+  <text class="mono" x="442" y="88" font-size="10" fill="#64748B" text-anchor="end">LOC: 11.0168°N, 76.9558°E</text>
+
+  <!-- Portrait Frame Card -->
+  <rect x="38" y="100" width="408" height="346" rx="10" fill="#F1F5F9" fill-opacity="0.9" stroke="#CBD5E1" stroke-width="1"/>
+
+  <!-- Portrait Corner HUD Markers -->
+  <path d="M 44 114 L 44 106 L 52 106" fill="none" stroke="#0284C7" stroke-width="1.5" opacity="0.8"/>
+  <path d="M 440 114 L 440 106 L 432 106" fill="none" stroke="#0284C7" stroke-width="1.5" opacity="0.8"/>
+  <path d="M 44 432 L 44 440 L 52 440" fill="none" stroke="#0284C7" stroke-width="1.5" opacity="0.8"/>
+  <path d="M 440 432 L 440 440 L 432 440" fill="none" stroke="#0284C7" stroke-width="1.5" opacity="0.8"/>
+
+  <!-- ASCII Portrait -->
+  <g>
+    <text class="ascii" text-anchor="middle" xml:space="preserve" fill="url(#asciiGradLight)">
+        <tspan x="242" y="124.0">                                                    </tspan>
+        <tspan x="242" y="133.4">                                                    </tspan>
+        <tspan x="242" y="142.8">                :+++++#%%%%@##%%@@@%#****           </tspan>
+        <tspan x="242" y="152.2">                +++++##...........:@@@%**           </tspan>
+        <tspan x="242" y="161.6">                :+:+*·...............:%@*           </tspan>
+        <tspan x="242" y="171.0">                :::*:.........··.··....#@           </tspan>
+        <tspan x="242" y="180.4">                :::+*..................·@           </tspan>
+        <tspan x="242" y="189.8">                ····+:.·:#+·*#%@@@*...·.+           </tspan>
+        <tspan x="242" y="199.2">                ·····+...·+#:·:#@@+.....@           </tspan>
+        <tspan x="242" y="208.6">                .....:....:@·.::#@@*:..·@           </tspan>
+        <tspan x="242" y="218.0">                .....·.:.·@@@:#+#@@#@%*+%           </tspan>
+        <tspan x="242" y="227.4">                 ......:..++@:+@@@*##+@#*           </tspan>
+        <tspan x="242" y="236.8">                 ....·....·**·:@@*:@@:***           </tspan>
+        <tspan x="242" y="246.2">                 .......·.·@@#@++:+:*@***           </tspan>
+        <tspan x="242" y="255.6">                 .....·....*#*+··+%:*****           </tspan>
+        <tspan x="242" y="265.0">                 .....·.....··+*#@@+*****           </tspan>
+        <tspan x="242" y="274.4">                 .....·.....*@@%#@:*++++*           </tspan>
+        <tspan x="242" y="283.8">                 :::.·+..:..*@@@@:·@+++++           </tspan>
+        <tspan x="242" y="293.2">                  +·:+**.:··+*%%·.+@*+@*            </tspan>
+        <tspan x="242" y="302.6">              *+++:·+·%@:.·+·.:...@@@*%**%          </tspan>
+        <tspan x="242" y="312.0">           *#+*+++:::..@@%:%·.·%+·+*%%**#++#        </tspan>
+        <tspan x="242" y="321.4">        .#··@++*++++**..:@#··:@#:+::+**#*+:+**      </tspan>
+        <tspan x="242" y="330.8">     ..··**.%#+****++%··:··:*#*:::**++**++++*+%@    </tspan>
+        <tspan x="242" y="340.2">   ....·:+*.+%+*+**+*#:·*%·@*++:+*+++*++**::#+*@@+  </tspan>
+        <tspan x="242" y="349.6">   ....::+*.:#+++*++**#.·++#+*:*:++++**++#+:%***@*  </tspan>
+        <tspan x="242" y="359.0">   ...·*:++.·#+**++++*%.·+*#*·++:+++:+**+#+:%***@@  </tspan>
+        <tspan x="242" y="368.4">   ...·%:#+..***++++++@·.·#%··*:+**+++:+**#*%#+*#@  </tspan>
+        <tspan x="242" y="377.8">   ...+%+:#..·*#::++*+##.·@:.*++++++*+:*++@@++++#%  </tspan>
+        <tspan x="242" y="387.2">   ...%+#:*..:#*::++*++%..@··*++++++#+++#···:*+**#  </tspan>
+        <tspan x="242" y="396.6">   ...%+***..·+·:*+++*+%:...*++**+:++++*@..·#++#*#  </tspan>
+        <tspan x="242" y="406.0">   ..·%#:##..···++++*+++*..+#+:++*::++**@#.%+:+#+#  </tspan>
+        <tspan x="242" y="415.4">   ..·+@:+#..·.·++·#**+*:..%#+:::+:+++#*@·.@::#*+%  </tspan>
+        <tspan x="242" y="424.8">   ..·:%+:*....+..+%+*++···*+**::::#+*#@#..#:+#++%  </tspan>
+        <tspan x="242" y="434.2">   .:++##+:...··.:%#****:*#***##*++#%%%@...:**#*%@  </tspan>
+    </text>
+  </g>
+
+  <!-- Animated Scanline -->
+  <line x1="40" y1="102" x2="444" y2="102" stroke="url(#scanlineGradLight)" stroke-width="1.5" opacity="0.5">
+    <animate attributeName="y1" values="102;442;102" dur="5.5s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="102;442;102" dur="5.5s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Left Divider -->
+  <line x1="38" y1="460" x2="446" y2="460" stroke="#E2E8F0" stroke-width="1"/>
+
+  <!-- Identity Block -->
+  <rect x="38" y="474" width="136" height="20" rx="4" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="0.8"/>
+  <text class="mono" x="46" y="488" font-size="9.5" fill="#0284C7" font-weight="600">[IDENTITY.PROFILE]</text>
+  <text class="mono" x="446" y="488" font-size="9.5" fill="#64748B" text-anchor="end">NODE_ID: BL-01</text>
+
+  <text class="sans" x="38" y="515" font-size="18" fill="#0F172A" font-weight="700" letter-spacing="0.5">INFANT ASHIL</text>
+  <text class="mono" x="38" y="534" font-size="11" fill="#475569">Full Stack Developer · AI Builder</text>
+
+  <!-- Interactive Terminal Line -->
+  <text class="mono" x="38" y="562" font-size="11.5" fill="#0284C7">~/ashwiths</text>
+  <text class="mono" x="122" y="562" font-size="11.5" fill="#475569">$ build --ship --scale</text>
+  <text class="mono" x="296" y="562" font-size="12" fill="#0284C7">▋
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- ================= RIGHT PANEL (SYSTEM.INFO) ================= -->
+  <rect x="476" y="64" width="680" height="526" rx="14" fill="#FFFFFF" fill-opacity="0.92" stroke="url(#panelBorderLight)" stroke-width="1"/>
+
+  <!-- Right Header -->
+  <text class="mono" x="496" y="88" font-size="11" fill="#0284C7" font-weight="600" letter-spacing="0.5">// SYSTEM.INFO</text>
+  <text class="mono" x="1136" y="88" font-size="10" fill="#059669" text-anchor="end" font-weight="600">SYS_STATUS: 200 OK  [🟢]</text>
+
+  <!-- Terminal Command Prompt -->
+  <text class="mono" x="496" y="114" font-size="11.5" fill="#0284C7">ashwiths@system:~$</text>
+  <text class="mono" x="656" y="114" font-size="11.5" fill="#64748B">whoami --verbose</text>
+
+  <!-- Large Identity Title -->
+  <text class="sans" x="496" y="146" font-size="26" fill="#0F172A" font-weight="800" letter-spacing="1">INFANT ASHIL</text>
+  <text class="mono" x="720" y="142" font-size="12" fill="#0284C7">(@ashwiths)</text>
+
+  <!-- Animated Rotating Roles with SMIL -->
+  <g>
+    <!-- Role 1 -->
+    <text class="mono" x="496" y="172" font-size="13" fill="#475569">
+      <tspan fill="#0284C7" font-weight="700">&gt; </tspan><tspan fill="#0F172A" font-weight="600">Full Stack Developer</tspan> &amp; AI Builder
+      <animate attributeName="opacity" values="0;1;1;0;0;0;0;0" keyTimes="0;0.05;0.22;0.25;0.26;0.5;0.75;1" dur="12s" repeatCount="indefinite"/>
+    </text>
+    <!-- Role 2 -->
+    <text class="mono" x="496" y="172" font-size="13" fill="#475569" opacity="0">
+      <tspan fill="#0284C7" font-weight="700">&gt; </tspan><tspan fill="#0F172A" font-weight="600">Founder &amp; Platform Engineer</tspan> @ Bluelab Technologies
+      <animate attributeName="opacity" values="0;0;0;1;1;0;0;0" keyTimes="0;0.24;0.25;0.30;0.47;0.50;0.75;1" dur="12s" repeatCount="indefinite"/>
+    </text>
+    <!-- Role 3 -->
+    <text class="mono" x="496" y="172" font-size="13" fill="#475569" opacity="0">
+      <tspan fill="#0284C7" font-weight="700">&gt; </tspan><tspan fill="#0F172A" font-weight="600">Product Architect</tspan> · Savee Space Ecosystem
+      <animate attributeName="opacity" values="0;0;0;1;1;0;0;0" keyTimes="0;0.49;0.50;0.55;0.72;0.75;0.76;1" dur="12s" repeatCount="indefinite"/>
+    </text>
+    <!-- Role 4 -->
+    <text class="mono" x="496" y="172" font-size="13" fill="#475569" opacity="0">
+      <tspan fill="#0284C7" font-weight="700">&gt; </tspan><tspan fill="#0F172A" font-weight="600">Systems &amp; Automation</tspan> · Scalable Web Platforms
+      <animate attributeName="opacity" values="0;0;0;1;1;0;0;0" keyTimes="0;0.74;0.75;0.80;0.97;1;1;1" dur="12s" repeatCount="indefinite"/>
+    </text>
+    <!-- Blinking Cursor -->
+    <text class="mono" x="965" y="172" font-size="13" fill="#0284C7">▋
+      <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- System Information Grid -->
+  <rect x="496" y="190" width="640" height="90" rx="8" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="0.9"/>
+
+  <!-- Row 1 -->
+  <text class="mono" x="512" y="214" font-size="10.5" fill="#0284C7" font-weight="600">&gt; AFFILIATION</text>
+  <text class="mono" x="622" y="214" font-size="10.5" fill="#0F172A">Bluelab Technologies</text>
+
+  <text class="mono" x="830" y="214" font-size="10.5" fill="#0284C7" font-weight="600">&gt; LOCATION</text>
+  <text class="mono" x="930" y="214" font-size="10.5" fill="#0F172A">Coimbatore, India</text>
+
+  <!-- Row 2 -->
+  <text class="mono" x="512" y="240" font-size="10.5" fill="#0284C7" font-weight="600">&gt; ECOSYSTEM</text>
+  <text class="mono" x="622" y="240" font-size="10.5" fill="#0F172A">11 Products · 3 Platforms</text>
+
+  <text class="mono" x="830" y="240" font-size="10.5" fill="#0284C7" font-weight="600">&gt; REPOSITORIES</text>
+  <text class="mono" x="930" y="240" font-size="10.5" fill="#0F172A">41+ Public Projects</text>
+
+  <!-- Row 3 -->
+  <text class="mono" x="512" y="266" font-size="10.5" fill="#0284C7" font-weight="600">&gt; FOCUS</text>
+  <text class="mono" x="622" y="266" font-size="10.5" fill="#0F172A">Scalable Web Architecture · AI Tools · Dev Platforms</text>
+
+  <!-- Core Tech Stack Section -->
+  <text class="mono" x="496" y="306" font-size="11" fill="#0284C7" font-weight="600" letter-spacing="0.5">// CORE TECH STACK</text>
+
+  <!-- Tech Pills Grid -->
+  <g>
+    <!-- React -->
+    <rect x="496" y="318" width="70" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+    <circle cx="508" cy="331" r="3" fill="#0284C7"/>
+    <text class="mono" x="518" y="335" font-size="10.5" fill="#0F172A">React</text>
+
+    <!-- Node.js -->
+    <rect x="574" y="318" width="78" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+    <circle cx="586" cy="331" r="3" fill="#059669"/>
+    <text class="mono" x="596" y="335" font-size="10.5" fill="#0F172A">Node.js</text>
+
+    <!-- TypeScript -->
+    <rect x="660" y="318" width="94" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+    <circle cx="672" cy="331" r="3" fill="#2563EB"/>
+    <text class="mono" x="682" y="335" font-size="10.5" fill="#0F172A">TypeScript</text>
+
+    <!-- MongoDB -->
+    <rect x="762" y="318" width="84" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+    <circle cx="774" cy="331" r="3" fill="#059669"/>
+    <text class="mono" x="784" y="335" font-size="10.5" fill="#0F172A">MongoDB</text>
+
+    <!-- Next.js -->
+    <rect x="854" y="318" width="76" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+    <circle cx="866" cy="331" r="3" fill="#0F172A"/>
+    <text class="mono" x="876" y="335" font-size="10.5" fill="#0F172A">Next.js</text>
+
+    <!-- Vite -->
+    <rect x="938" y="318" width="60" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+    <circle cx="950" cy="331" r="3" fill="#7C3AED"/>
+    <text class="mono" x="960" y="335" font-size="10.5" fill="#0F172A">Vite</text>
+
+    <!-- Python -->
+    <rect x="1006" y="318" width="72" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+    <circle cx="1018" cy="331" r="3" fill="#D97706"/>
+    <text class="mono" x="1028" y="335" font-size="10.5" fill="#0F172A">Python</text>
+
+    <!-- API -->
+    <rect x="1086" y="318" width="50" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+    <circle cx="1096" cy="331" r="3" fill="#0284C7"/>
+    <text class="mono" x="1105" y="335" font-size="10.5" fill="#0F172A">API</text>
+  </g>
+
+  <!-- Featured Ecosystem Platforms Section -->
+  <text class="mono" x="496" y="374" font-size="11" fill="#0284C7" font-weight="600" letter-spacing="0.5">// FEATURED PLATFORMS &amp; ECOSYSTEM</text>
+
+  <!-- Platform Card 1: Savee Space -->
+  <rect x="496" y="388" width="640" height="58" rx="8" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="0.9"/>
+  <circle cx="514" cy="406" r="4" fill="#0284C7"/>
+  <text class="mono" x="526" y="410" font-size="12" fill="#0F172A" font-weight="700">Savee Space Ecosystem</text>
+  <text class="mono" x="724" y="410" font-size="10.5" fill="#0284C7">savee.space</text>
+  <rect x="1054" y="398" width="68" height="18" rx="4" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.8"/>
+  <text class="mono" x="1062" y="411" font-size="9" fill="#059669" font-weight="600">[ LIVE ⚡ ]</text>
+  <text class="mono" x="514" y="432" font-size="10.5" fill="#475569">Modern Web Suite · 6 Live Products (Bible, Heal, Drop, Type, SafeFile, FontGen)</text>
+
+  <!-- Platform Card 2: Bluelab Technologies -->
+  <rect x="496" y="454" width="640" height="58" rx="8" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="0.9"/>
+  <circle cx="514" cy="472" r="4" fill="#6366F1"/>
+  <text class="mono" x="526" y="476" font-size="12" fill="#0F172A" font-weight="700">Bluelab Platforms</text>
+  <text class="mono" x="686" y="476" font-size="10.5" fill="#4F46E5">bluelabtech.space</text>
+  <rect x="1042" y="464" width="80" height="18" rx="4" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.8"/>
+  <text class="mono" x="1050" y="477" font-size="9" fill="#0284C7" font-weight="600">[ ACTIVE 🚀 ]</text>
+  <text class="mono" x="514" y="498" font-size="10.5" fill="#475569">Developer &amp; Productivity Suite (SheetHub, BlueLab, ProjectHub, DevKit, NetCheck)</text>
+
+  <!-- Terminal Footer Divider -->
+  <line x1="496" y1="528" x2="1136" y2="528" stroke="#E2E8F0" stroke-width="1"/>
+
+  <!-- Footer Links / Socials -->
+  <text class="mono" x="496" y="554" font-size="10.5" fill="#64748B">&gt; GITHUB:</text>
+  <text class="mono" x="562" y="554" font-size="10.5" fill="#0284C7">ashwiths</text>
+
+  <text class="mono" x="654" y="554" font-size="10.5" fill="#64748B">&gt; WEB:</text>
+  <text class="mono" x="696" y="554" font-size="10.5" fill="#0284C7">ashil.space</text>
+
+  <text class="mono" x="806" y="554" font-size="10.5" fill="#64748B">&gt; IN:</text>
+  <text class="mono" x="836" y="554" font-size="10.5" fill="#0284C7">infant-ashil</text>
+
+  <text class="mono" x="956" y="554" font-size="10.5" fill="#64748B">&gt; MAIL:</text>
+  <text class="mono" x="1006" y="554" font-size="10.5" fill="#0284C7">infantashil55@gmail.com</text>
+</svg>
