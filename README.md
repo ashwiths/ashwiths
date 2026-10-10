@@ -91,7 +91,7 @@ Building cohesive digital ecosystems designed to solve real-world problems throu
 
 ---
 
-### `// 04. GITHUB ANALYTICS`
+### `// 04. GITHUB ACTIVITY`
 
 <div align="center">
 
@@ -102,7 +102,21 @@ Building cohesive digital ecosystems designed to solve real-world problems throu
 
 <img width="72%" src="https://github-readme-streak-stats.herokuapp.com/?user=ashwiths&theme=tokyonight&hide_border=true&stroke=00F7FF&background=0B1329&ring=00F7FF&fire=00F7FF&currStreakNum=F8FAFC&sideNums=94A3B8&currStreakLabel=00F7FF" alt="GitHub Streak" />
 
-<br><br>
+</div>
+
+<br>
+
+<div align="center">
+
+### 🐍 Contribution Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./github-contribution-grid-snake.svg">
+  <img alt="GitHub Contribution Grid Snake Animation" src="./github-contribution-grid-snake-dark.svg" width="100%">
+</picture>
+
+<br>
 
 [![Ashil's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ashwiths&theme=tokyo-night&hide_border=true&area=true&color=00F7FF&bg_color=0B1329)](https://github.com/ashwiths)
 
