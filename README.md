@@ -1,5 +1,7 @@
 <div align="center">
 
+# Hi, I'm Infant Ashil 👋
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./light.svg">
