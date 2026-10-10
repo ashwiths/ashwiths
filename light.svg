@@ -1,314 +1,545 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="1180" height="610" role="img" aria-label="Infant Ashil - Developer Profile System Banner (Light Theme)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="1180" height="610" role="img" aria-label="Infant Ashil - Developer Profile Banner (Light Theme)">
   <defs>
     <!-- Background Gradients -->
-    <linearGradient id="bgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="canvasBgLight" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#FFFFFF"/>
       <stop offset="50%" stop-color="#F8FAFC"/>
-      <stop offset="100%" stop-color="#EEF6FF"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
     </linearGradient>
 
-    <radialGradient id="glowBlueLight" cx="20%" cy="30%" r="60%">
-      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.08"/>
-      <stop offset="100%" stop-color="#0284C7" stop-opacity="0"/>
-    </radialGradient>
-
-    <radialGradient id="glowIndigoLight" cx="80%" cy="40%" r="60%">
-      <stop offset="0%" stop-color="#4F46E5" stop-opacity="0.06"/>
-      <stop offset="100%" stop-color="#4F46E5" stop-opacity="0"/>
-    </radialGradient>
-
-    <linearGradient id="panelBorderLight" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.35"/>
-      <stop offset="50%" stop-color="#CBD5E1" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.3"/>
+    <!-- Glowing Frame Borders -->
+    <linearGradient id="frameGlowLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.8"/>
+      <stop offset="25%" stop-color="#8B5CF6" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#0284C7" stop-opacity="0.2"/>
+      <stop offset="75%" stop-color="#8B5CF6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0.8"/>
     </linearGradient>
 
-    <linearGradient id="asciiGradLight" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0369A1"/>
-      <stop offset="45%" stop-color="#0284C7"/>
-      <stop offset="80%" stop-color="#4338CA"/>
-      <stop offset="100%" stop-color="#6D28D9"/>
+    <!-- Laser Scanner Beam -->
+    <linearGradient id="laserLineLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.1"/>
+      <stop offset="20%" stop-color="#0284C7" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#0F172A" stop-opacity="1"/>
+      <stop offset="80%" stop-color="#0284C7" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.1"/>
     </linearGradient>
 
-    <linearGradient id="scanlineGradLight" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="laserBandLight" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#0284C7" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#0284C7" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#4338CA" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#0284C7" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0"/>
     </linearGradient>
 
-    <linearGradient id="headerGradLight" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#F1F5F9" stop-opacity="0.95"/>
-      <stop offset="50%" stop-color="#E2E8F0" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#F1F5F9" stop-opacity="0.95"/>
-    </linearGradient>
-
-    <!-- Grid Pattern -->
-    <pattern id="gridLight" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#E2E8F0" stroke-width="0.6" stroke-opacity="0.8"/>
-      <circle cx="24" cy="0" r="0.8" fill="#0284C7" fill-opacity="0.25"/>
+    <!-- Matrix Dot Pattern -->
+    <pattern id="matrixDotsLight" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="8" cy="8" r="0.75" fill="#0284C7" opacity="0.15"/>
     </pattern>
 
     <style>
       .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
       .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
-      .ascii { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 8.3px; letter-spacing: 0.5px; }
     </style>
   </defs>
 
-  <!-- Outer Frame -->
-  <rect width="1180" height="610" rx="20" fill="url(#bgLight)" stroke="#CBD5E1" stroke-width="1.5"/>
-  <rect width="1180" height="610" rx="20" fill="url(#glowBlueLight)"/>
-  <rect width="1180" height="610" rx="20" fill="url(#glowIndigoLight)"/>
-  <rect width="1180" height="610" rx="20" fill="url(#gridLight)"/>
+  <!-- Outer Window Frame -->
+  <rect x="2" y="2" width="1176" height="606" rx="20" fill="url(#canvasBgLight)" stroke="#CBD5E1" stroke-width="1.5"/>
 
-  <!-- Top Terminal Header Bar -->
-  <rect x="0" y="0" width="1180" height="50" rx="20" fill="url(#headerGradLight)"/>
-  <rect x="0" y="20" width="1180" height="30" fill="url(#headerGradLight)"/>
-  <line x1="0" y1="50" x2="1180" y2="50" stroke="#CBD5E1" stroke-width="1"/>
+  <!-- Top and Bottom Neon Dash Highlights on Border -->
+  <path d="M 80 2 L 200 2 M 350 2 L 500 2 M 700 2 L 850 2 M 950 2 L 1100 2" stroke="url(#frameGlowLight)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 80 608 L 200 608 M 350 608 L 500 608 M 700 608 L 850 608 M 950 608 L 1100 608" stroke="url(#frameGlowLight)" stroke-width="2.5" stroke-linecap="round"/>
 
-  <!-- Terminal Window Controls -->
+  <!-- Top Chrome Header Bar -->
+  <line x1="2" y1="50" x2="1178" y2="50" stroke="#CBD5E1" stroke-width="1"/>
+
+  <!-- Window Controls -->
   <circle cx="34" cy="25" r="5" fill="#EF4444"/>
   <circle cx="50" cy="25" r="5" fill="#F59E0B"/>
   <circle cx="66" cy="25" r="5" fill="#10B981"/>
 
-  <!-- Top Prompt & Title -->
-  <text class="mono" x="92" y="29" font-size="12" fill="#0284C7">ashwiths@developer:~$</text>
-  <text class="mono" x="272" y="29" font-size="12" fill="#64748B">/bin/system-profile --online</text>
+  <!-- Tab Title -->
+  <text class="mono" x="95" y="29" font-size="12" fill="#0F172A">ashwiths/README.md</text>
 
-  <text class="mono" x="590" y="29" font-size="11" fill="#475569" text-anchor="middle" letter-spacing="1">INFANT ASHIL · SYSTEM INTERFACE</text>
+  <!-- Center Indicator Dot -->
+  <circle cx="590" cy="25" r="2.5" fill="#0284C7"/>
 
-  <!-- Top Right Status Pill -->
-  <rect x="1000" y="14" width="156" height="22" rx="11" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
-  <circle cx="1016" cy="25" r="4" fill="#059669">
-    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <text class="mono" x="1028" y="29" font-size="10.5" fill="#059669" font-weight="600">ONLINE</text>
-  <text class="mono" x="1076" y="29" font-size="10.5" fill="#64748B">· 41 REPOS</text>
+  <!-- Top Right Navigation Tabs -->
+  <text class="mono" x="800" y="29" font-size="11" fill="#64748B">&lt;&gt; Code</text>
+  <text class="mono" x="880" y="29" font-size="11" fill="#64748B">[+] Projects</text>
+  <text class="mono" x="985" y="29" font-size="11" fill="#64748B">[-] Experience</text>
+  <text class="mono" x="1090" y="29" font-size="11" fill="#64748B">oo Contact</text>
 
-  <!-- ================= LEFT PANEL (VISUAL / IDENTITY) ================= -->
-  <rect x="24" y="64" width="436" height="526" rx="14" fill="#FFFFFF" fill-opacity="0.92" stroke="url(#panelBorderLight)" stroke-width="1"/>
+  <!-- ================= LEFT PANEL (VISUAL.MAP) ================= -->
+  <rect x="28" y="64" width="460" height="524" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2"/>
 
   <!-- Left Header -->
-  <text class="mono" x="42" y="88" font-size="11" fill="#0284C7" font-weight="600" letter-spacing="0.5">// VISUAL.MAP</text>
-  <text class="mono" x="442" y="88" font-size="10" fill="#64748B" text-anchor="end">LOC: 11.0168°N, 76.9558°E</text>
+  <text class="mono" x="50" y="92" font-size="11" fill="#0284C7" font-weight="600" letter-spacing="1">VISUAL.MAP</text>
 
-  <!-- Portrait Frame Card -->
-  <rect x="38" y="100" width="408" height="346" rx="10" fill="#F1F5F9" fill-opacity="0.9" stroke="#CBD5E1" stroke-width="1"/>
+  <!-- Portrait Container Box -->
+  <g clip-path="url(#portraitClipLight)">
+    <clipPath id="portraitClipLight">
+      <rect x="44" y="106" width="428" height="464" rx="12"/>
+    </clipPath>
 
-  <!-- Portrait Corner HUD Markers -->
-  <path d="M 44 114 L 44 106 L 52 106" fill="none" stroke="#0284C7" stroke-width="1.5" opacity="0.8"/>
-  <path d="M 440 114 L 440 106 L 432 106" fill="none" stroke="#0284C7" stroke-width="1.5" opacity="0.8"/>
-  <path d="M 44 432 L 44 440 L 52 440" fill="none" stroke="#0284C7" stroke-width="1.5" opacity="0.8"/>
-  <path d="M 440 432 L 440 440 L 432 440" fill="none" stroke="#0284C7" stroke-width="1.5" opacity="0.8"/>
+    <!-- Inner Background & Dot Matrix -->
+    <rect x="44" y="106" width="428" height="464" rx="12" fill="#F8FAFC"/>
+    <rect x="44" y="106" width="428" height="464" fill="url(#matrixDotsLight)"/>
 
-  <!-- ASCII Portrait -->
-  <g>
-    <text class="ascii" text-anchor="middle" xml:space="preserve" fill="url(#asciiGradLight)">
-        <tspan x="242" y="124.0">                                                    </tspan>
-        <tspan x="242" y="133.4">                                                    </tspan>
-        <tspan x="242" y="142.8">                :+++++#%%%%@##%%@@@%#****           </tspan>
-        <tspan x="242" y="152.2">                +++++##...........:@@@%**           </tspan>
-        <tspan x="242" y="161.6">                :+:+*·...............:%@*           </tspan>
-        <tspan x="242" y="171.0">                :::*:.........··.··....#@           </tspan>
-        <tspan x="242" y="180.4">                :::+*..................·@           </tspan>
-        <tspan x="242" y="189.8">                ····+:.·:#+·*#%@@@*...·.+           </tspan>
-        <tspan x="242" y="199.2">                ·····+...·+#:·:#@@+.....@           </tspan>
-        <tspan x="242" y="208.6">                .....:....:@·.::#@@*:..·@           </tspan>
-        <tspan x="242" y="218.0">                .....·.:.·@@@:#+#@@#@%*+%           </tspan>
-        <tspan x="242" y="227.4">                 ......:..++@:+@@@*##+@#*           </tspan>
-        <tspan x="242" y="236.8">                 ....·....·**·:@@*:@@:***           </tspan>
-        <tspan x="242" y="246.2">                 .......·.·@@#@++:+:*@***           </tspan>
-        <tspan x="242" y="255.6">                 .....·....*#*+··+%:*****           </tspan>
-        <tspan x="242" y="265.0">                 .....·.....··+*#@@+*****           </tspan>
-        <tspan x="242" y="274.4">                 .....·.....*@@%#@:*++++*           </tspan>
-        <tspan x="242" y="283.8">                 :::.·+..:..*@@@@:·@+++++           </tspan>
-        <tspan x="242" y="293.2">                  +·:+**.:··+*%%·.+@*+@*            </tspan>
-        <tspan x="242" y="302.6">              *+++:·+·%@:.·+·.:...@@@*%**%          </tspan>
-        <tspan x="242" y="312.0">           *#+*+++:::..@@%:%·.·%+·+*%%**#++#        </tspan>
-        <tspan x="242" y="321.4">        .#··@++*++++**..:@#··:@#:+::+**#*+:+**      </tspan>
-        <tspan x="242" y="330.8">     ..··**.%#+****++%··:··:*#*:::**++**++++*+%@    </tspan>
-        <tspan x="242" y="340.2">   ....·:+*.+%+*+**+*#:·*%·@*++:+*+++*++**::#+*@@+  </tspan>
-        <tspan x="242" y="349.6">   ....::+*.:#+++*++**#.·++#+*:*:++++**++#+:%***@*  </tspan>
-        <tspan x="242" y="359.0">   ...·*:++.·#+**++++*%.·+*#*·++:+++:+**+#+:%***@@  </tspan>
-        <tspan x="242" y="368.4">   ...·%:#+..***++++++@·.·#%··*:+**+++:+**#*%#+*#@  </tspan>
-        <tspan x="242" y="377.8">   ...+%+:#..·*#::++*+##.·@:.*++++++*+:*++@@++++#%  </tspan>
-        <tspan x="242" y="387.2">   ...%+#:*..:#*::++*++%..@··*++++++#+++#···:*+**#  </tspan>
-        <tspan x="242" y="396.6">   ...%+***..·+·:*+++*+%:...*++**+:++++*@..·#++#*#  </tspan>
-        <tspan x="242" y="406.0">   ..·%#:##..···++++*+++*..+#+:++*::++**@#.%+:+#+#  </tspan>
-        <tspan x="242" y="415.4">   ..·+@:+#..·.·++·#**+*:..%#+:::+:+++#*@·.@::#*+%  </tspan>
-        <tspan x="242" y="424.8">   ..·:%+:*....+..+%+*++···*+**::::#+*#@#..#:+#++%  </tspan>
-        <tspan x="242" y="434.2">   .:++##+:...··.:%#****:*#***##*++#%%%@...:**#*%@  </tspan>
-    </text>
+    <!-- Corner HUD Brackets -->
+    <path d="M 52 120 L 52 114 L 60 114" fill="none" stroke="#0284C7" stroke-width="1.5" opacity="0.8"/>
+    <path d="M 464 120 L 464 114 L 456 114" fill="none" stroke="#0284C7" stroke-width="1.5" opacity="0.8"/>
+    <path d="M 52 556 L 52 562 L 60 562" fill="none" stroke="#0284C7" stroke-width="1.5" opacity="0.8"/>
+    <path d="M 464 556 L 464 562 L 456 562" fill="none" stroke="#0284C7" stroke-width="1.5" opacity="0.8"/>
+
+    <!-- Cybernetic Portrait Vector & Stippling -->
+    <g>
+      <circle cx="182.6" cy="191.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="185.5" cy="184.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="188.4" cy="177.5" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="192.8" cy="172.8" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="197.1" cy="168.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="201.5" cy="163.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="205.8" cy="158.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="211.6" cy="156.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="217.4" cy="153.1" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="223.2" cy="150.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="229.0" cy="147.3" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="234.8" cy="146.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="240.6" cy="145.5" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="246.4" cy="144.5" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="252.2" cy="143.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="258.0" cy="142.7" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="263.8" cy="143.1" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="269.6" cy="143.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="275.4" cy="144.1" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="281.2" cy="144.5" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="287.0" cy="145.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="292.3" cy="146.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="297.7" cy="148.7" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="303.0" cy="150.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="308.3" cy="152.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="313.7" cy="154.3" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="318.6" cy="157.8" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="323.5" cy="161.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="328.5" cy="164.7" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="333.4" cy="168.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="337.3" cy="174.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="341.1" cy="179.8" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="345.0" cy="185.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="346.2" cy="192.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="347.3" cy="198.7" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="348.5" cy="205.3" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="346.9" cy="212.3" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="345.4" cy="219.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="343.8" cy="226.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="341.5" cy="232.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="339.2" cy="237.8" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="336.9" cy="243.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="334.6" cy="248.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="332.2" cy="253.7" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="182.6" cy="191.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="180.7" cy="197.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="178.7" cy="203.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="176.8" cy="208.8" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="176.8" cy="215.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="176.8" cy="221.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="176.8" cy="228.5" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="178.3" cy="234.7" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="179.9" cy="240.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="181.4" cy="247.1" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="183.8" cy="252.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="200.0" cy="175.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="205.8" cy="172.1" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="211.6" cy="169.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="217.4" cy="165.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="223.2" cy="163.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="229.0" cy="161.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="234.8" cy="158.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="240.6" cy="156.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="246.4" cy="156.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="252.2" cy="155.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="258.0" cy="154.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="263.8" cy="154.3" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="269.6" cy="155.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="275.4" cy="156.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="281.2" cy="157.8" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="287.0" cy="158.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="292.8" cy="161.8" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="298.6" cy="164.7" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="304.4" cy="167.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="209.3" cy="189.1" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="215.1" cy="186.8" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="220.9" cy="184.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="226.7" cy="182.1" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="232.5" cy="179.8" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="238.9" cy="178.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="245.2" cy="176.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="251.6" cy="175.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="258.0" cy="174.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="263.8" cy="174.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="269.6" cy="175.7" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="275.4" cy="176.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="281.2" cy="177.5" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="287.0" cy="179.8" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="292.8" cy="182.1" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="298.6" cy="184.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="304.4" cy="186.8" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="309.0" cy="190.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="313.7" cy="193.7" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="318.3" cy="197.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="220.9" cy="205.3" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="226.7" cy="203.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="232.5" cy="200.7" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="238.3" cy="198.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="244.1" cy="196.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="249.9" cy="194.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="255.7" cy="193.7" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="261.5" cy="192.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="267.3" cy="191.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="273.1" cy="192.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="278.9" cy="192.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="284.7" cy="193.1" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="290.5" cy="193.7" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="295.4" cy="196.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="300.3" cy="199.5" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="305.3" cy="202.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="251.0" cy="344.5" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="258.0" cy="351.5" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="266.1" cy="356.1" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="274.2" cy="351.5" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="213.9" cy="400.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="218.1" cy="403.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="222.3" cy="407.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="226.4" cy="411.3" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="230.6" cy="415.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="234.8" cy="418.8" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="238.4" cy="423.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="242.1" cy="428.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="245.7" cy="432.7" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="249.3" cy="437.3" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="252.9" cy="442.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="256.6" cy="446.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="260.2" cy="451.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="313.7" cy="400.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="309.5" cy="403.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="305.3" cy="407.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="301.2" cy="411.3" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="297.0" cy="415.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="292.8" cy="418.8" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="289.8" cy="423.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="286.7" cy="428.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="283.7" cy="432.7" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="280.6" cy="437.3" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="277.6" cy="442.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="274.5" cy="446.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="271.5" cy="451.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="213.9" cy="400.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="209.3" cy="403.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="204.6" cy="407.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="200.0" cy="411.3" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="195.4" cy="415.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="190.7" cy="418.8" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="196.1" cy="421.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="201.5" cy="424.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="207.0" cy="428.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="212.4" cy="431.1" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="217.8" cy="434.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="223.2" cy="437.3" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="228.3" cy="439.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="233.3" cy="442.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="238.4" cy="444.3" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="243.5" cy="446.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="248.6" cy="448.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="253.7" cy="451.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="258.7" cy="453.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="313.7" cy="400.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="318.3" cy="403.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="323.0" cy="407.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="327.6" cy="411.3" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="332.2" cy="415.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="336.9" cy="418.8" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="331.5" cy="421.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="326.1" cy="424.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="320.6" cy="428.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="315.2" cy="431.1" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="309.8" cy="434.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="304.4" cy="437.3" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="299.3" cy="440.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="294.1" cy="442.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="289.0" cy="445.3" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="283.9" cy="447.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="278.7" cy="450.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="273.6" cy="453.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="190.7" cy="418.8" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="186.2" cy="422.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="181.8" cy="426.1" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="177.3" cy="429.7" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="172.8" cy="433.3" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="168.3" cy="437.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="163.9" cy="440.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="159.4" cy="444.3" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="154.9" cy="448.1" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="150.4" cy="452.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="145.9" cy="455.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="141.4" cy="459.7" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="136.8" cy="463.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="132.3" cy="467.5" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="127.8" cy="471.3" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="123.3" cy="475.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="118.8" cy="479.1" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="115.3" cy="483.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="111.8" cy="487.7" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="108.4" cy="492.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="104.9" cy="496.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="101.4" cy="500.5" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="97.9" cy="504.8" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="94.4" cy="509.1" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="91.0" cy="513.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="87.5" cy="517.7" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="84.0" cy="522.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="82.3" cy="527.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="80.5" cy="532.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="78.8" cy="537.7" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="77.0" cy="542.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="75.3" cy="548.1" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="73.6" cy="553.3" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="71.8" cy="558.5" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="70.1" cy="563.8" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="68.3" cy="569.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="336.9" cy="418.8" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="341.4" cy="422.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="345.8" cy="426.1" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="350.3" cy="429.7" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="354.8" cy="433.3" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="359.3" cy="437.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="363.7" cy="440.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="368.2" cy="444.3" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="372.7" cy="448.1" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="377.2" cy="452.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="381.7" cy="455.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="386.2" cy="459.7" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="390.8" cy="463.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="395.3" cy="467.5" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="399.8" cy="471.3" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="404.3" cy="475.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="408.8" cy="479.1" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="412.3" cy="483.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="415.8" cy="487.7" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="419.2" cy="492.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="422.7" cy="496.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="426.2" cy="500.5" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="429.7" cy="504.8" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="433.2" cy="509.1" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="436.6" cy="513.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="440.1" cy="517.7" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="443.6" cy="522.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="445.3" cy="527.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="447.1" cy="532.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="448.8" cy="537.7" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="450.6" cy="542.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="452.3" cy="548.1" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="454.0" cy="553.3" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="455.8" cy="558.5" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="457.5" cy="563.8" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="459.3" cy="569.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="241.8" cy="437.3" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="242.8" cy="442.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="243.8" cy="448.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="244.9" cy="453.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="245.9" cy="459.5" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="246.9" cy="465.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="247.9" cy="470.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="249.0" cy="476.1" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="250.0" cy="481.7" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="251.0" cy="487.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="251.8" cy="493.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="252.6" cy="498.8" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="253.4" cy="504.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="254.1" cy="510.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="254.9" cy="516.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="255.7" cy="522.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="256.5" cy="527.8" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="257.2" cy="533.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="258.0" cy="539.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="258.0" cy="545.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="258.0" cy="551.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="258.0" cy="556.8" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="258.0" cy="562.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="258.0" cy="568.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="285.8" cy="437.3" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="284.8" cy="442.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="283.8" cy="448.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="282.7" cy="453.9" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="281.7" cy="459.5" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="280.7" cy="465.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="279.7" cy="470.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="278.6" cy="476.1" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="277.6" cy="481.7" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="276.6" cy="487.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="275.8" cy="493.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="275.0" cy="498.8" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="274.2" cy="504.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="273.5" cy="510.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="272.7" cy="516.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="271.9" cy="522.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="271.1" cy="527.8" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="270.4" cy="533.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="269.6" cy="539.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="269.6" cy="545.2" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="269.6" cy="551.0" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="269.6" cy="556.8" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="269.6" cy="562.6" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="269.6" cy="568.4" r="1.1" fill="#0284C7" opacity="0.7"/>
+      <circle cx="222.0" cy="255.8" r="2.2" fill="#0284C7"/>
+      <circle cx="292.8" cy="253.5" r="2.2" fill="#0284C7"/>
+      <path d="M 182.6 191.4 L 188.4 177.5 L 205.8 158.9 L 229.0 147.3 L 258.0 142.7 L 287.0 145.0 L 313.7 154.3 L 333.4 168.2 L 345.0 185.6 L 348.5 205.3 L 343.8 226.2 L 336.9 243.6 L 329.9 258.7" fill="none" stroke="#0284C7" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+      <path d="M 182.6 191.4 L 176.8 208.8 L 176.8 228.5 L 181.4 247.1 L 186.1 258.7" fill="none" stroke="#0284C7" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+      <path d="M 200.0 175.2 L 217.4 165.9 L 240.6 156.6 L 263.8 154.3 L 287.0 158.9 L 310.2 170.5" fill="none" stroke="#0284C7" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+      <path d="M 209.3 189.1 L 232.5 179.8 L 258.0 174.0 L 281.2 177.5 L 304.4 186.8 L 323.0 200.7" fill="none" stroke="#0284C7" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+      <path d="M 220.9 205.3 L 244.1 196.0 L 267.3 191.4 L 290.5 193.7 L 310.2 205.3" fill="none" stroke="#0284C7" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+      <path d="M 193.0 235.5 L 217.4 221.6 L 246.4 212.3 L 275.4 210.0 L 304.4 219.2 L 323.0 235.5" fill="none" stroke="#0284C7" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+      <path d="M 202.3 247.1 L 216.2 240.1 L 230.2 237.8 L 244.1 240.1" fill="none" stroke="#0284C7" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+      <path d="M 271.9 237.8 L 285.8 235.5 L 299.8 237.8 L 313.7 244.8" fill="none" stroke="#0284C7" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+      <path d="M 207.0 256.4 L 219.7 251.7 L 232.5 256.4" fill="none" stroke="#0284C7" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+      <path d="M 207.0 256.4 L 219.7 261.0 L 232.5 256.4" fill="none" stroke="#0284C7" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+      <path d="M 278.9 254.0 L 290.5 250.6 L 304.4 254.0" fill="none" stroke="#0284C7" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+      <path d="M 278.9 254.0 L 290.5 258.7 L 304.4 254.0" fill="none" stroke="#0284C7" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+      <path d="M 258.0 244.8 L 260.3 263.3 L 262.6 281.9 L 265.0 293.5" fill="none" stroke="#0284C7" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+      <path d="M 255.7 293.5 L 263.8 298.1 L 274.2 293.5" fill="none" stroke="#0284C7" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+      <path d="M 251.0 293.5 L 255.7 292.3" fill="none" stroke="#0284C7" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+      <path d="M 274.2 292.3 L 278.9 293.5" fill="none" stroke="#0284C7" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+      <path d="M 246.4 308.6 L 255.7 306.2 L 266.1 309.7 L 276.6 306.2 L 285.8 308.6" fill="none" stroke="#0284C7" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+      <path d="M 241.8 316.7 L 255.7 314.4 L 266.1 315.5 L 276.6 314.4 L 290.5 316.7" fill="none" stroke="#0284C7" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+      <path d="M 244.1 319.0 L 266.1 323.6 L 288.2 319.0" fill="none" stroke="#0284C7" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+      <path d="M 251.0 328.3 L 266.1 331.8 L 281.2 328.3" fill="none" stroke="#0284C7" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+      <path d="M 251.0 344.5 L 258.0 351.5 L 266.1 356.1 L 274.2 351.5 L 281.2 344.5" fill="none" stroke="#0284C7" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+      <path d="M 186.1 263.3 L 190.7 290.0 L 200.0 313.2 L 216.2 332.9 L 234.8 348.0 L 251.0 356.1" fill="none" stroke="#0284C7" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+      <path d="M 281.2 356.1 L 297.4 348.0 L 311.4 332.9 L 323.0 313.2 L 329.9 290.0 L 329.9 263.3" fill="none" stroke="#0284C7" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+      <path d="M 186.1 258.7 L 176.8 270.3 L 176.8 284.2 L 188.4 293.5" fill="none" stroke="#0284C7" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+      <path d="M 329.9 258.7 L 339.2 270.3 L 339.2 284.2 L 327.6 293.5" fill="none" stroke="#0284C7" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+      <path d="M 209.3 344.5 L 211.6 374.7 L 213.9 400.2" fill="none" stroke="#0284C7" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+      <path d="M 302.1 344.5 L 309.0 374.7 L 313.7 400.2" fill="none" stroke="#0284C7" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+      <path d="M 213.9 400.2 L 234.8 418.8 L 263.8 455.9" fill="none" stroke="#0284C7" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+      <path d="M 313.7 400.2 L 292.8 418.8 L 268.4 455.9" fill="none" stroke="#0284C7" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+      <path d="M 213.9 400.2 L 190.7 418.8 L 223.2 437.3 L 263.8 455.9" fill="none" stroke="#0284C7" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+      <path d="M 313.7 400.2 L 336.9 418.8 L 304.4 437.3 L 268.4 455.9" fill="none" stroke="#0284C7" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+      <path d="M 262.6 455.9 L 262.6 574.2" fill="none" stroke="#0284C7" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+      <path d="M 269.6 455.9 L 269.6 574.2" fill="none" stroke="#0284C7" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+      <path d="M 190.7 418.8 L 159.4 444.3 L 118.8 479.1 L 84.0 522.0 L 66.6 574.2" fill="none" stroke="#0284C7" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+      <path d="M 336.9 418.8 L 368.2 444.3 L 408.8 479.1 L 443.6 522.0 L 461.0 574.2" fill="none" stroke="#0284C7" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+      <path d="M 241.8 437.3 L 251.0 487.2 L 258.0 539.4 L 258.0 574.2" fill="none" stroke="#0284C7" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+      <path d="M 285.8 437.3 L 276.6 487.2 L 269.6 539.4 L 269.6 574.2" fill="none" stroke="#0284C7" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+    </g>
+
+    <!-- Animated Horizontal Laser Scanner Beam -->
+    <g>
+      <rect x="44" y="-20" width="428" height="40" fill="url(#laserBandLight)"/>
+      <line x1="44" y1="0" x2="472" y2="0" stroke="url(#laserLineLight)" stroke-width="2.5"/>
+      <animateTransform attributeName="transform" type="translate" values="0,115; 0,560; 0,115" dur="4.2s" repeatCount="indefinite"/>
+    </g>
   </g>
-
-  <!-- Animated Scanline -->
-  <line x1="40" y1="102" x2="444" y2="102" stroke="url(#scanlineGradLight)" stroke-width="1.5" opacity="0.5">
-    <animate attributeName="y1" values="102;442;102" dur="5.5s" repeatCount="indefinite"/>
-    <animate attributeName="y2" values="102;442;102" dur="5.5s" repeatCount="indefinite"/>
-  </line>
-
-  <!-- Left Divider -->
-  <line x1="38" y1="460" x2="446" y2="460" stroke="#E2E8F0" stroke-width="1"/>
-
-  <!-- Identity Block -->
-  <rect x="38" y="474" width="136" height="20" rx="4" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="0.8"/>
-  <text class="mono" x="46" y="488" font-size="9.5" fill="#0284C7" font-weight="600">[IDENTITY.PROFILE]</text>
-  <text class="mono" x="446" y="488" font-size="9.5" fill="#64748B" text-anchor="end">NODE_ID: BL-01</text>
-
-  <text class="sans" x="38" y="515" font-size="18" fill="#0F172A" font-weight="700" letter-spacing="0.5">INFANT ASHIL</text>
-  <text class="mono" x="38" y="534" font-size="11" fill="#475569">Full Stack Developer · AI Builder</text>
-
-  <!-- Interactive Terminal Line -->
-  <text class="mono" x="38" y="562" font-size="11.5" fill="#0284C7">~/ashwiths</text>
-  <text class="mono" x="122" y="562" font-size="11.5" fill="#475569">$ build --ship --scale</text>
-  <text class="mono" x="296" y="562" font-size="12" fill="#0284C7">▋
-    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-  </text>
+  <rect x="44" y="106" width="428" height="464" rx="12" fill="none" stroke="#E2E8F0" stroke-width="1"/>
 
   <!-- ================= RIGHT PANEL (SYSTEM.INFO) ================= -->
-  <rect x="476" y="64" width="680" height="526" rx="14" fill="#FFFFFF" fill-opacity="0.92" stroke="url(#panelBorderLight)" stroke-width="1"/>
+  <rect x="506" y="64" width="646" height="524" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2"/>
 
   <!-- Right Header -->
-  <text class="mono" x="496" y="88" font-size="11" fill="#0284C7" font-weight="600" letter-spacing="0.5">// SYSTEM.INFO</text>
-  <text class="mono" x="1136" y="88" font-size="10" fill="#059669" text-anchor="end" font-weight="600">SYS_STATUS: 200 OK  [🟢]</text>
+  <text class="mono" x="528" y="92" font-size="11" fill="#0284C7" font-weight="600" letter-spacing="1">SYSTEM.INFO</text>
+
+  <!-- Online Status Indicator -->
+  <circle cx="1080" cy="88" r="4" fill="#059669"/>
+  <text class="mono" x="1092" y="92" font-size="11" fill="#059669" font-weight="600">online</text>
 
   <!-- Terminal Command Prompt -->
-  <text class="mono" x="496" y="114" font-size="11.5" fill="#0284C7">ashwiths@system:~$</text>
-  <text class="mono" x="656" y="114" font-size="11.5" fill="#64748B">whoami --verbose</text>
+  <text class="mono" x="528" y="126" font-size="12" fill="#0284C7">ashwiths@developer:~#</text>
+  <text class="mono" x="710" y="126" font-size="12" fill="#0F172A">./profile.sh</text>
 
-  <!-- Large Identity Title -->
-  <text class="sans" x="496" y="146" font-size="26" fill="#0F172A" font-weight="800" letter-spacing="1">INFANT ASHIL</text>
-  <text class="mono" x="720" y="142" font-size="12" fill="#0284C7">(@ashwiths)</text>
+  <!-- Terminal Dotted Leader Output -->
+  <!-- Name -->
+  <text class="mono" x="528" y="156" font-size="11" fill="#0284C7">&gt; Name</text>
+  <text class="mono" x="618" y="156" font-size="11" fill="#CBD5E1">. . . . . . . . . . . . . . . . . . . . . . . .</text>
+  <text class="mono" x="760" y="156" font-size="11" fill="#0F172A" font-weight="600">Infant Ashil</text>
 
-  <!-- Animated Rotating Roles with SMIL -->
-  <g>
-    <!-- Role 1 -->
-    <text class="mono" x="496" y="172" font-size="13" fill="#475569">
-      <tspan fill="#0284C7" font-weight="700">&gt; </tspan><tspan fill="#0F172A" font-weight="600">Full Stack Developer</tspan> &amp; AI Builder
-      <animate attributeName="opacity" values="0;1;1;0;0;0;0;0" keyTimes="0;0.05;0.22;0.25;0.26;0.5;0.75;1" dur="12s" repeatCount="indefinite"/>
-    </text>
-    <!-- Role 2 -->
-    <text class="mono" x="496" y="172" font-size="13" fill="#475569" opacity="0">
-      <tspan fill="#0284C7" font-weight="700">&gt; </tspan><tspan fill="#0F172A" font-weight="600">Founder &amp; Platform Engineer</tspan> @ Bluelab Technologies
-      <animate attributeName="opacity" values="0;0;0;1;1;0;0;0" keyTimes="0;0.24;0.25;0.30;0.47;0.50;0.75;1" dur="12s" repeatCount="indefinite"/>
-    </text>
-    <!-- Role 3 -->
-    <text class="mono" x="496" y="172" font-size="13" fill="#475569" opacity="0">
-      <tspan fill="#0284C7" font-weight="700">&gt; </tspan><tspan fill="#0F172A" font-weight="600">Product Architect</tspan> · Savee Space Ecosystem
-      <animate attributeName="opacity" values="0;0;0;1;1;0;0;0" keyTimes="0;0.49;0.50;0.55;0.72;0.75;0.76;1" dur="12s" repeatCount="indefinite"/>
-    </text>
-    <!-- Role 4 -->
-    <text class="mono" x="496" y="172" font-size="13" fill="#475569" opacity="0">
-      <tspan fill="#0284C7" font-weight="700">&gt; </tspan><tspan fill="#0F172A" font-weight="600">Systems &amp; Automation</tspan> · Scalable Web Platforms
-      <animate attributeName="opacity" values="0;0;0;1;1;0;0;0" keyTimes="0;0.74;0.75;0.80;0.97;1;1;1" dur="12s" repeatCount="indefinite"/>
-    </text>
-    <!-- Blinking Cursor -->
-    <text class="mono" x="965" y="172" font-size="13" fill="#0284C7">▋
-      <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
-    </text>
-  </g>
+  <!-- Role -->
+  <text class="mono" x="528" y="177" font-size="11" fill="#0284C7">&gt; Role</text>
+  <text class="mono" x="618" y="177" font-size="11" fill="#CBD5E1">. . . . . . . . . . . . . . . . . . . . . . . .</text>
+  <text class="mono" x="760" y="177" font-size="11" fill="#0F172A">Full Stack Developer</text>
 
-  <!-- System Information Grid -->
-  <rect x="496" y="190" width="640" height="90" rx="8" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="0.9"/>
+  <!-- Location -->
+  <text class="mono" x="528" y="198" font-size="11" fill="#0284C7">&gt; Location</text>
+  <text class="mono" x="618" y="198" font-size="11" fill="#CBD5E1">. . . . . . . . . . . . . . . . . . . . . . . .</text>
+  <text class="mono" x="760" y="198" font-size="11" fill="#475569">Coimbatore, India</text>
 
-  <!-- Row 1 -->
-  <text class="mono" x="512" y="214" font-size="10.5" fill="#0284C7" font-weight="600">&gt; AFFILIATION</text>
-  <text class="mono" x="622" y="214" font-size="10.5" fill="#0F172A">Bluelab Technologies</text>
+  <!-- Organization -->
+  <text class="mono" x="528" y="219" font-size="11" fill="#0284C7">&gt; Organization</text>
+  <text class="mono" x="618" y="219" font-size="11" fill="#CBD5E1">. . . . . . . . . . . . . . . . . . . . . . . .</text>
+  <text class="mono" x="760" y="219" font-size="11" fill="#7C3AED" font-weight="600">Bluelab Technologies</text>
 
-  <text class="mono" x="830" y="214" font-size="10.5" fill="#0284C7" font-weight="600">&gt; LOCATION</text>
-  <text class="mono" x="930" y="214" font-size="10.5" fill="#0F172A">Coimbatore, India</text>
+  <!-- Stack -->
+  <text class="mono" x="528" y="240" font-size="11" fill="#0284C7">&gt; Stack</text>
+  <text class="mono" x="618" y="240" font-size="11" fill="#CBD5E1">. . . . . . . . . . . . . . . . . . . . . . . .</text>
+  <text class="mono" x="760" y="240" font-size="11" fill="#0F172A">React, Next.js, Node.js, TypeScript</text>
+  <text class="mono" x="760" y="258" font-size="11" fill="#475569">MongoDB, Vite, Python, Cloudflare</text>
 
-  <!-- Row 2 -->
-  <text class="mono" x="512" y="240" font-size="10.5" fill="#0284C7" font-weight="600">&gt; ECOSYSTEM</text>
-  <text class="mono" x="622" y="240" font-size="10.5" fill="#0F172A">11 Products · 3 Platforms</text>
+  <!-- Focus -->
+  <text class="mono" x="528" y="286" font-size="11" fill="#0284C7">&gt; Focus</text>
+  <text class="mono" x="618" y="286" font-size="11" fill="#CBD5E1">. . . . . . . . . . . . . . . . . . . . . . . .</text>
+  <text class="mono" x="760" y="286" font-size="11" fill="#0F172A">Building scalable web architectures</text>
 
-  <text class="mono" x="830" y="240" font-size="10.5" fill="#0284C7" font-weight="600">&gt; REPOSITORIES</text>
-  <text class="mono" x="930" y="240" font-size="10.5" fill="#0F172A">41+ Public Projects</text>
+  <!-- Ecosystem -->
+  <text class="mono" x="528" y="307" font-size="11" fill="#0284C7">&gt; Ecosystem</text>
+  <text class="mono" x="618" y="307" font-size="11" fill="#CBD5E1">. . . . . . . . . . . . . . . . . . . . . . . .</text>
+  <text class="mono" x="760" y="307" font-size="11" fill="#0F172A">AI Systems, Developer Tools, Web Platforms</text>
 
-  <!-- Row 3 -->
-  <text class="mono" x="512" y="266" font-size="10.5" fill="#0284C7" font-weight="600">&gt; FOCUS</text>
-  <text class="mono" x="622" y="266" font-size="10.5" fill="#0F172A">Scalable Web Architecture · AI Tools · Dev Platforms</text>
+  <!-- Projects Section -->
+  <text class="mono" x="528" y="338" font-size="11" fill="#0284C7">&gt; Projects</text>
 
-  <!-- Core Tech Stack Section -->
-  <text class="mono" x="496" y="306" font-size="11" fill="#0284C7" font-weight="600" letter-spacing="0.5">// CORE TECH STACK</text>
+  <!-- Project 1 -->
+  <text class="mono" x="544" y="358" font-size="11" fill="#0284C7">• Savee Space</text>
+  <text class="mono" x="646" y="358" font-size="11" fill="#CBD5E1">. . . . . . . . . . . . . . . . . . . .</text>
+  <text class="mono" x="760" y="358" font-size="11" fill="#475569">6 Web Products (Bible, Heal, Drop, Type)</text>
 
-  <!-- Tech Pills Grid -->
-  <g>
-    <!-- React -->
-    <rect x="496" y="318" width="70" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
-    <circle cx="508" cy="331" r="3" fill="#0284C7"/>
-    <text class="mono" x="518" y="335" font-size="10.5" fill="#0F172A">React</text>
+  <!-- Project 2 -->
+  <text class="mono" x="544" y="378" font-size="11" fill="#0284C7">• SheetHub</text>
+  <text class="mono" x="646" y="378" font-size="11" fill="#CBD5E1">. . . . . . . . . . . . . . . . . . . .</text>
+  <text class="mono" x="760" y="378" font-size="11" fill="#475569">Spreadsheet Automation Platform</text>
 
-    <!-- Node.js -->
-    <rect x="574" y="318" width="78" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
-    <circle cx="586" cy="331" r="3" fill="#059669"/>
-    <text class="mono" x="596" y="335" font-size="10.5" fill="#0F172A">Node.js</text>
+  <!-- Project 3 -->
+  <text class="mono" x="544" y="398" font-size="11" fill="#0284C7">• ProjectHub</text>
+  <text class="mono" x="646" y="398" font-size="11" fill="#CBD5E1">. . . . . . . . . . . . . . . . . . . .</text>
+  <text class="mono" x="760" y="398" font-size="11" fill="#475569">Developer Directory &amp; Showcase Hub</text>
 
-    <!-- TypeScript -->
-    <rect x="660" y="318" width="94" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
-    <circle cx="672" cy="331" r="3" fill="#2563EB"/>
-    <text class="mono" x="682" y="335" font-size="10.5" fill="#0F172A">TypeScript</text>
+  <!-- Project 4 -->
+  <text class="mono" x="544" y="418" font-size="11" fill="#0284C7">• DevKit</text>
+  <text class="mono" x="646" y="418" font-size="11" fill="#CBD5E1">. . . . . . . . . . . . . . . . . . . .</text>
+  <text class="mono" x="760" y="418" font-size="11" fill="#475569">Developer Utilities &amp; Productivity Suite</text>
 
-    <!-- MongoDB -->
-    <rect x="762" y="318" width="84" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
-    <circle cx="774" cy="331" r="3" fill="#059669"/>
-    <text class="mono" x="784" y="335" font-size="10.5" fill="#0F172A">MongoDB</text>
+  <!-- Links Section -->
+  <text class="mono" x="528" y="448" font-size="11" fill="#0284C7">&gt; Links</text>
 
-    <!-- Next.js -->
-    <rect x="854" y="318" width="76" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
-    <circle cx="866" cy="331" r="3" fill="#0F172A"/>
-    <text class="mono" x="876" y="335" font-size="10.5" fill="#0F172A">Next.js</text>
+  <!-- GitHub Link -->
+  <text class="mono" x="544" y="468" font-size="11" fill="#0F172A">GitHub</text>
+  <text class="mono" x="618" y="468" font-size="11" fill="#CBD5E1">. . . . . . . . . . . . . . . . . . . . . . . .</text>
+  <text class="mono" x="760" y="468" font-size="11" fill="#0284C7">github.com/ashwiths</text>
 
-    <!-- Vite -->
-    <rect x="938" y="318" width="60" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
-    <circle cx="950" cy="331" r="3" fill="#7C3AED"/>
-    <text class="mono" x="960" y="335" font-size="10.5" fill="#0F172A">Vite</text>
+  <!-- Portfolio Link -->
+  <text class="mono" x="544" y="488" font-size="11" fill="#0F172A">Portfolio</text>
+  <text class="mono" x="618" y="488" font-size="11" fill="#CBD5E1">. . . . . . . . . . . . . . . . . . . . . . . .</text>
+  <text class="mono" x="760" y="488" font-size="11" fill="#0284C7">ashil.space</text>
 
-    <!-- Python -->
-    <rect x="1006" y="318" width="72" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
-    <circle cx="1018" cy="331" r="3" fill="#D97706"/>
-    <text class="mono" x="1028" y="335" font-size="10.5" fill="#0F172A">Python</text>
+  <!-- LinkedIn Link -->
+  <text class="mono" x="544" y="508" font-size="11" fill="#0F172A">LinkedIn</text>
+  <text class="mono" x="618" y="508" font-size="11" fill="#CBD5E1">. . . . . . . . . . . . . . . . . . . . . . . .</text>
+  <text class="mono" x="760" y="508" font-size="11" fill="#0284C7">linkedin.com/in/infant-ashil</text>
 
-    <!-- API -->
-    <rect x="1086" y="318" width="50" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
-    <circle cx="1096" cy="331" r="3" fill="#0284C7"/>
-    <text class="mono" x="1105" y="335" font-size="10.5" fill="#0F172A">API</text>
-  </g>
+  <!-- Email Link -->
+  <text class="mono" x="544" y="528" font-size="11" fill="#0F172A">Email</text>
+  <text class="mono" x="618" y="528" font-size="11" fill="#CBD5E1">. . . . . . . . . . . . . . . . . . . . . . . .</text>
+  <text class="mono" x="760" y="528" font-size="11" fill="#0284C7">infantashil55@gmail.com</text>
 
-  <!-- Featured Ecosystem Platforms Section -->
-  <text class="mono" x="496" y="374" font-size="11" fill="#0284C7" font-weight="600" letter-spacing="0.5">// FEATURED PLATFORMS &amp; ECOSYSTEM</text>
-
-  <!-- Platform Card 1: Savee Space -->
-  <rect x="496" y="388" width="640" height="58" rx="8" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="0.9"/>
-  <circle cx="514" cy="406" r="4" fill="#0284C7"/>
-  <text class="mono" x="526" y="410" font-size="12" fill="#0F172A" font-weight="700">Savee Space Ecosystem</text>
-  <text class="mono" x="724" y="410" font-size="10.5" fill="#0284C7">savee.space</text>
-  <rect x="1054" y="398" width="68" height="18" rx="4" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.8"/>
-  <text class="mono" x="1062" y="411" font-size="9" fill="#059669" font-weight="600">[ LIVE ⚡ ]</text>
-  <text class="mono" x="514" y="432" font-size="10.5" fill="#475569">Modern Web Suite · 6 Live Products (Bible, Heal, Drop, Type, SafeFile, FontGen)</text>
-
-  <!-- Platform Card 2: Bluelab Technologies -->
-  <rect x="496" y="454" width="640" height="58" rx="8" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="0.9"/>
-  <circle cx="514" cy="472" r="4" fill="#6366F1"/>
-  <text class="mono" x="526" y="476" font-size="12" fill="#0F172A" font-weight="700">Bluelab Platforms</text>
-  <text class="mono" x="686" y="476" font-size="10.5" fill="#4F46E5">bluelabtech.space</text>
-  <rect x="1042" y="464" width="80" height="18" rx="4" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.8"/>
-  <text class="mono" x="1050" y="477" font-size="9" fill="#0284C7" font-weight="600">[ ACTIVE 🚀 ]</text>
-  <text class="mono" x="514" y="498" font-size="10.5" fill="#475569">Developer &amp; Productivity Suite (SheetHub, BlueLab, ProjectHub, DevKit, NetCheck)</text>
-
-  <!-- Terminal Footer Divider -->
-  <line x1="496" y1="528" x2="1136" y2="528" stroke="#E2E8F0" stroke-width="1"/>
-
-  <!-- Footer Links / Socials -->
-  <text class="mono" x="496" y="554" font-size="10.5" fill="#64748B">&gt; GITHUB:</text>
-  <text class="mono" x="562" y="554" font-size="10.5" fill="#0284C7">ashwiths</text>
-
-  <text class="mono" x="654" y="554" font-size="10.5" fill="#64748B">&gt; WEB:</text>
-  <text class="mono" x="696" y="554" font-size="10.5" fill="#0284C7">ashil.space</text>
-
-  <text class="mono" x="806" y="554" font-size="10.5" fill="#64748B">&gt; IN:</text>
-  <text class="mono" x="836" y="554" font-size="10.5" fill="#0284C7">infant-ashil</text>
-
-  <text class="mono" x="956" y="554" font-size="10.5" fill="#64748B">&gt; MAIL:</text>
-  <text class="mono" x="1006" y="554" font-size="10.5" fill="#0284C7">infantashil55@gmail.com</text>
+  <!-- Terminal Bottom Prompt with Blinking Cursor -->
+  <text class="mono" x="528" y="562" font-size="12" fill="#0284C7">ashwiths@developer:~#</text>
+  <text class="mono" x="710" y="562" font-size="12" fill="#0284C7">▋
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </text>
 </svg>

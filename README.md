@@ -3,10 +3,20 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./light.svg">
-  <img src="./dark.svg" alt="Infant Ashil - Developer Profile System Banner" width="100%">
+  <img src="./dark.svg" alt="Infant Ashil - Developer Profile Banner" width="100%">
 </picture>
 
 <br><br>
+
+### Full-Stack Developer · AI Builder · Platform Architect
+
+`⚛️ React / Next.js` &nbsp;·&nbsp; `⚙️ Node.js` &nbsp;·&nbsp; `🟦 TypeScript` &nbsp;·&nbsp; `🍃 MongoDB` &nbsp;·&nbsp; `⚡ Vite` &nbsp;·&nbsp; `🐍 Python` &nbsp;·&nbsp; `☁️ Cloudflare`
+
+<br>
+
+*I build AI-powered products, scalable web platforms, automation workflows, and production systems at Bluelab Technologies.*
+
+<br>
 
 [![Profile Views](https://komarev.com/ghpvc/?username=ashwiths&label=SYSTEM+VISITS&color=00F7FF&style=for-the-badge)](https://github.com/ashwiths)
 [![GitHub Repos](https://img.shields.io/badge/REPOSITORIES-41%2B_ACTIVE-10B981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ashwiths?tab=repositories)
