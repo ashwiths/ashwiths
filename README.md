@@ -1,6 +1,6 @@
-<div align="center">
-
 # Hi, I'm Infant Ashil 👋
+
+<div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
@@ -107,8 +107,8 @@ Building cohesive digital ecosystems designed to solve real-world problems throu
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=ashwiths&show_icons=true&theme=tokyonight&hide_border=true&title_color=00F7FF&icon_color=00F7FF&text_color=94A3B8&bg_color=0B1329" alt="GitHub Stats" />
-<img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ashwiths&layout=compact&theme=tokyonight&hide_border=true&title_color=00F7FF&text_color=94A3B8&bg_color=0B1329" alt="Top Languages" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=ashwiths&show_icons=true&theme=tokyonight&hide_border=true&title_color=00F7FF&icon_color=00F7FF&text_color=94A3B8&bg_color=0B1329" alt="GitHub Stats" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ashwiths&layout=compact&theme=tokyonight&hide_border=true&title_color=00F7FF&text_color=94A3B8&bg_color=0B1329" alt="Top Languages" />
 
 <br>
 
@@ -130,7 +130,7 @@ Building cohesive digital ecosystems designed to solve real-world problems throu
 
 <br>
 
-[![Ashil's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ashwiths&theme=tokyo-night&hide_border=true&area=true&color=00F7FF&bg_color=0B1329)](https://github.com/ashwiths)
+[![Ashil's Activity Graph](https://github-activity-graph.vercel.app/graph?username=ashwiths&theme=tokyo-night&hide_border=true&area=true&color=00F7FF&bg_color=0B1329)](https://github.com/ashwiths)
 
 </div>
 
